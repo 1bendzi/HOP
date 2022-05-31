@@ -1,0 +1,46 @@
+2022-05-31
+15:45:57
+R E S U L T S  O F  T H E  T E S T: Useful Addresses page wording is the same for both demo and scheme page!
+
+
+Wording pulled from Lloyds page:
+
+Useful Addresses
+Government websites on pensions
+The Pensions Regulator
+View
+Money Helper Service
+View
+The Pensions Advisory Service
+View
+The Pension Service
+View
+The Pensions Ombudsman
+View
+Financial Services websites
+Financial Conduct Authority
+View
+Other
+No addresses to display
+
+
+Wording pulled from Corvidae page:
+
+Useful Addresses
+Government websites on pensions
+The Pensions Regulator
+View
+Money Helper Service
+View
+The Pensions Advisory Service
+View
+The Pension Service
+View
+The Pensions Ombudsman
+View
+Financial Services websites
+Financial Conduct Authority
+View
+Other
+No addresses to display
+

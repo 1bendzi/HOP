@@ -1,0 +1,54 @@
+Lines starting with - are from Pfizer scheme
+Lines starting with + are from demo
+
+  1
+  Registration
+  2
+  PIN Entry
+  3
+  Welcome
+  Welcome to the Scheme website. In order to access your pension account you will need to register. You can do this by entering your login details which you will use to log in to the site. We will need your contact details so we can send you a log in reminder and any password or PIN resets you may need. We will also let you know if you get any mail from the Scheme.
+  As a security measure, you will be sent a Personal Identification Number (PIN) which you will need to access the site. You can choose how to receive this PIN using the drop-down box below.
+  * information required
+  Login Details
+  The login name you choose must
+  Be a minimum of six characters (letters or numbers) with a maximum of 40
+  Login Name *
+  The password you choose must meet all of the following:
+  Be 8 or more characters long
+  Must contain number(s)
+  Must contain lower case letter(s)
+  Must contain an upper case letter OR punctuation character
+  It is strongly advised you do not enter a password that you have previously used
+  Password *
+  Confirm Password *
+  Security Question *
+  Security Answer *
+  Contact Details
+  Your Email Address *
+  Confirm Email Address *
+  Mobile Telephone Number*
+  (UK) +44
+- I want to receive my PIN via *
+?    ^^^
+
++ I wish to receive my PIN via *
+?    ^^^
+
+- None
++ Email
+  Multi-Factor Authentication
+  Authentication Method *
+  None
+  Personal Details
+  National Insurance Number *
+  Surname *
+  Gender *
+  Male
+  Date of Birth *
+  The input is / separated
+  Please enter the Security Code shown below to proceed
+  Security Code *
+  I have read and agree with the Terms and Conditions
+  
+  

@@ -1,0 +1,44 @@
+2022-05-31
+14:43:04
+R E S U L T S  O F  T H E  T E S T: Menu headers are NOT the same for demo and scheme page!
+
+
+Wording pulled from Pfizer page:
+
+Reminders
+Login Name Reminder
+Reset Password
+Reset PIN
+Apply To Join The Scheme
+Application Options
+Scheme Communications
+Pensions Compass
+Scheme Information
+Investments
+Investment Options
+General Information
+Contact Us
+Useful Addresses
+Useful Terms
+Scheme Selection
+Scheme Selection
+
+
+Wording pulled from Corvidae page:
+
+Reminders
+Login Name Reminder
+Reset Password
+Reset PIN
+Apply To Join The Scheme
+Application Options
+Scheme Communications
+Pensions Compass
+Scheme Information
+Investments
+Investment Options
+General Information
+Contact Us
+Useful Addresses
+Useful Terms
+

@@ -1,0 +1,54 @@
+2022-05-31
+15:48:34
+R E S U L T S  O F  T H E  T E S T: Accessibility page wording is the same for both demo and scheme page!
+
+
+Wording pulled from Pfizer page:
+
+Accessibility
+It is vital that websites are accessible to everyone - not only does it make good business sense, but it is also a legal requirement for businesses and organisations to make reasonable adjustments to provide accessible services or information.
+One of the main goals of the World Wide Web Consortium (W3C) is to make the web accessible to all by promoting technologies that take into account the vast differences in culture, languages, education, ability, material resources, access devices, and physical limitations of users on all continents.
+We are also in the process of applying for WAI certification via the Shaw Trust.
+For further information about W3C, visit www.w3.org.
+Browser Customisations
+Depending on the web browser you are using, there are a number of ways to change the way our web pages are displayed in order to make it easier for you to get the most out of them. For example you can:
+Permanently apply font and colour changes
+Enlarge text
+Change text and background colour
+Prevent graphics and images appearing
+Change the size of the window
+Change the colour of links displayed on a screen
+For details on how to apply changes such as these please refer to the help section or website of your web browser.
+Cascading Style Sheet (CSS)
+We have aimed to make our website as accessible as possible and to ensure that it remains usable if the CSS is disabled.
+Links to External Websites
+We are not responsible for the content of external websites linked to from this website as such we can not guarantee the accuracy of our links to these websites. If you notice any links that no longer go to the correct page please contact us.
+Useful Downloads from Adobe
+Some documents contained within this website are in Adobe Acrobat PDF (Portable Document Format). Such documents will be marked with the icon. To view these documents you will need to download Acrobat Reader which can be obtained from Adobe's website www.adobe.com.
+Access technology cannot easily read PDF files. Adobe have created a website www.adobe.com/uk which provides tools to help make PDF files more accessible to the visually disabled. These tools convert PDF documents into HTML or ASCII text so that they can then be read by a number of common screen reading programs that synthesise text as audible speech.
+
+
+Wording pulled from Corvidae page:
+
+Accessibility
+It is vital that websites are accessible to everyone - not only does it make good business sense, but it is also a legal requirement for businesses and organisations to make reasonable adjustments to provide accessible services or information.
+One of the main goals of the World Wide Web Consortium (W3C) is to make the web accessible to all by promoting technologies that take into account the vast differences in culture, languages, education, ability, material resources, access devices, and physical limitations of users on all continents.
+We are also in the process of applying for WAI certification via the Shaw Trust.
+For further information about W3C, visit www.w3.org.
+Browser Customisations
+Depending on the web browser you are using, there are a number of ways to change the way our web pages are displayed in order to make it easier for you to get the most out of them. For example you can:
+Permanently apply font and colour changes
+Enlarge text
+Change text and background colour
+Prevent graphics and images appearing
+Change the size of the window
+Change the colour of links displayed on a screen
+For details on how to apply changes such as these please refer to the help section or website of your web browser.
+Cascading Style Sheet (CSS)
+We have aimed to make our website as accessible as possible and to ensure that it remains usable if the CSS is disabled.
+Links to External Websites
+We are not responsible for the content of external websites linked to from this website as such we can not guarantee the accuracy of our links to these websites. If you notice any links that no longer go to the correct page please contact us.
+Useful Downloads from Adobe
+Some documents contained within this website are in Adobe Acrobat PDF (Portable Document Format). Such documents will be marked with the icon. To view these documents you will need to download Acrobat Reader which can be obtained from Adobe's website www.adobe.com.
+Access technology cannot easily read PDF files. Adobe have created a website www.adobe.com/uk which provides tools to help make PDF files more accessible to the visually disabled. These tools convert PDF documents into HTML or ASCII text so that they can then be read by a number of common screen reading programs that synthesise text as audible speech.
+

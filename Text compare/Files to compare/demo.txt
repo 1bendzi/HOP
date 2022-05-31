@@ -1,0 +1,46 @@
+I cannot find the information I am looking for 
+If there is any information that you cannot find, or any queries that cannot be answered online, please Contact Us . 
+How do I change my postal address? 
+You can change your address on the Personal Details page by clicking "View or change my address details". 
+New postal addresses or postcodes may not be recognised and therefore it may be that the administration team need to update this. Please call us on 0114 273 7331 (+44 114 273 7331 from overseas) and a member of the administration team will be able to assist you. 
+How do I change my email address? 
+If you wish to change the email address, this can be changed on the Personal Details page by clicking "Change these details" or the "Change Account Details" page. 
+How do I change my personal details? 
+You can update your name on the Personal Details page by clicking "Change these details". You are also able to update your marital status by clicking "I wish to update my marital details". 
+How much tax will I pay on my retirement benefits? 
+Any taxable retirement income paid to you by Capita is payable under the Pay As You Earn (PAYE) Rules. Income tax will be calculated, initially on a Month 1 (Emergency Code) basis. HM Revenue & Customs (HMRC) will be informed of your retirement and if any alteration is made to your tax code, Capita will adjust your tax position accordingly. This is usually within the first two months of your initial pension payment. 
+It may be possible for you to receive some of your retirement benefits tax-free and these options will be set out in any retirement quotation we send you. 
+Will be I be able to receive a lump sum on retirement? 
+You will often be able to receive a tax-free lump sum when you take your retirement benefits of up to 25% of the crystallisation value of your benefits. In some circumstances this lump must be restricted, for example if you have used up your Lifetime Allowance, or if there is a minimum level of retirement pension payable to you. These options will be set out in any retirement quotation we send you. 
+Capital Value (or Crystallisation Value) 
+The capital value of your pension benefits is not the annual amount of pension you currently receive (or are due to receive). Some general information on how to calculate the capital value is as follows: 
+If your pension has been in payment since before 6 April 2006 â€“ to work out the capital value, your gross annual pension at 5 April 2006 is multiplied by 25 (a HMRC conversion rate). Any tax-free cash taken before 6 April 2006 is ignored. 
+If your pension came into payment after 5 April 2006 â€“ to work out the capital value, you should take the percentage of the Lifetime Allowance you used up when you took your benefits and multiply this by the Lifetime Allowance in force when you took your benefits. 
+If you have pension benefits that have not yet come into payment, this will usually be your current annual pension multiplied by 20 (a HMRC conversion rate) for Defined Benefit schemes, plus any tax-free lump sum you receive on retirement, plus the amount of any money purchase benefits used to provide a taxable pension benefit (such as to buy an annuity, or to provide income drawdown). 
+ If you require confirmation of the Capital Value of your pension benefits it is recommended that you obtain this from your pension's administrator. 
+ Lifetime Allowance (LTA) 
+The Lifetime Allowance is the overall limit of pension benefits you can build up while enjoying the full tax advantages of having a pension. 
+If your pension benefits go above this limit an additional tax charge is imposed known as the Lifetime Allowance Tax Charge. The Lifetime Allowance against which your pension benefits are measured is dependent upon the tax year in which you take your pension benefits. 
+For most people the Lifetime Allowance is currently set at Â£1,073,100 until the 2025/26 tax year. If your circumstances allow, it is possible to apply for a Protection Certificate from HM Revenue and Customs (HMRC) entitling you to a higher Lifetime Allowance. 
+Annual Allowance (AA) and Money Purchase Annual Allowance (MPAA) 
+The Annual Allowance and Money Purchase Annual Allowance are limits on the amount that you may contribute to a pension in any tax year without incurring an additional tax charge. 
+The Annual Allowance is currently set at Â£40,000 however, if you have been told that you are subject to the Money Purchase Annual Allowance, this will be Â£4,000 for contributions to Money Purchase schemes. If you are also contributing to a Defined Benefit scheme, contributions to that scheme will become subject to an alternative annual allowance of Â£36,000. 
+Uncrystallised Funds Pension Lump Sum (UFPLS) 
+An UFPLS is a form of retirement benefit available from some schemes that provide Money Purchase type pension benefits. 
+When an UFPLS is paid to you, 25% of the amount will be payable tax-free with the remaining 75% subject to tax in line with Pay As You Earn (PAYE). Upon receiving payment of an UFPLS you will become subject to the Money Purchase Annual Allowance. 
+Small Pot Lump Sum (SPLS) 
+An SPLS is a form of retirement benefit available from some schemes that provide Money Purchase type pension benefits. 
+This is only available where the total value payable to you is less than Â£10,000 and must remove liability for all pension benefits payable to you related to the employment during which they were accrued. When an SPLS is paid to you, 25% of the amount will be payable tax-free with the remaining 75% subject to tax in line with Pay As You Earn (PAYE). 
+Income Drawdown and Flexi-Access Drawdown 
+Income Drawdown and Flexi-Access Drawdown are forms of retirement benefit available from some schemes that provide Money Purchase type pension benefits. 
+Using this option you designate an amount of your funds to drawdown and, when doing so, can choose to take an amount as a tax-free Pension Commencement Lump Sum (usually up to 25% of the funds designated). The amount of funds designated to drawdown, less that taken as a tax-free lump sum, can then be used to provide a taxable income in instalments of your choosing. 
+When a taxable income is paid to you from your drawdown funds you will become subject to the Money Purchase Annual Allowance. 
+Pension Commencement Lump Sum (PCLS) 
+A PCLS is a tax-free lump sum that may be available to you when you start to receive your pension benefits. Usually up to 25% of the value of your benefits. 
+I cannot find the information I am looking for 
+If there is any information that you cannot find, or any queries that cannot be answered online, please Contact Us . 
+Why am I asked to log in again when I was already logged in? 
+There are several possible reasons that you were asked to log in again; the most likely is that your web browser was inactive for a certain amount of time. This is a safety precaution we have put in place to help prevent unauthorised access to your account.
+We recommend that you always click "Log Out" before leaving the website and closing your intenet browser. 
+Why does the website not recognise my response to the security image? 
+Under certain circumstances the security image shown to you can be temporarily stored on your computer and result in a different image displaying in your browser than it should. By default, with the majority of internet browsers, this should not happen. To ensure this isn't problematic, you can perform a "hard refresh" of the image using Ctrl+F5 (Options+Cmd+E on Mac using Safari).

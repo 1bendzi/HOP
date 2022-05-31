@@ -1,0 +1,24 @@
+2022-05-31
+15:13:24
+R E S U L T S  O F  T H E  T E S T: Reset PIN page wording is the same for both demo and scheme page!
+
+
+Wording pulled from Anglian_Water page:
+
+Reset PIN - Step 1
+On successful completion of these pages you will receive notification of your new PIN.
+If you have any further problems, please use the Contact Us page to contact the administration team at Capita.
+Please enter the Security Code shown below to proceed
+Security Code *
+Your Email Address
+
+
+Wording pulled from Corvidae page:
+
+Reset PIN - Step 1
+On successful completion of these pages you will receive notification of your new PIN.
+If you have any further problems, please use the Contact Us page to contact the administration team at Capita.
+Please enter the Security Code shown below to proceed
+Security Code *
+Your Email Address
+

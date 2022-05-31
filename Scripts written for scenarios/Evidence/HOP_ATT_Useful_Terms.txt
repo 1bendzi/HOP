@@ -1,0 +1,142 @@
+2022-05-31
+14:58:00
+R E S U L T S  O F  T H E  T E S T: Menu headers are NOT the same for demo and scheme page!
+
+
+Wording pulled from ATT page:
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+A
+AA
+The Annual Allowance is the maximum amount that can be paid or built up in a pension arrangement in any tax year before an additional tax charge is payable.
+Actuary
+A pensions professional who estimates the long-term cost of providing pensions and advises on any contributions needed to fund a pension scheme, taking into account inflation, interest rates, how long people live and other factors.
+Additional State Pension
+This was paid on top of the Basic State Pension under the old State Pension, before 6 April 2016. It was based on an individual’s earnings between limits set by the Government each year.
+AVCs
+Additional Voluntary Contributions are additional contributions that you may have chosen to pay into the AT&T Pension Scheme while you were an active member of the Scheme. Your AVC savings pot can be used to provide additional income when you retire.
+Back to top
+B
+Basic State Pension (BSP)
+The flat rate pension paid at State Pension age under the old arrangement to a single person who has paid enough National Insurance contributions during their working life.
+Back to top
+C
+Capital Value
+The total value of your pension benefits. In a defined contribution scheme, it is simply the value of your savings pot. In a defined benefit scheme, it is usually the annual pension you are due to receive at retirement multiplied by 20 plus any lump sum you receive.
+Corporate Trustee
+A company that acts as the Trustee for a pension scheme and has a legal duty to safeguard members’ benefits.
+Back to top
+D
+Defined Benefit (DB)
+A type of pension scheme where you've earned a pension payable for life, based on how long you were in the scheme, your final pensionable salary and the pension scheme's accrual rate.
+Defined Contribution (DC)
+A type of pension scheme where you pay contributions from your salary to an individual pension savings pot. There are a number of ways you can access savings in a DC Scheme.
+Deferred member
+Either an employee or former employee of the Company who has not yet taken a pension from the AT&T Pension Scheme.
+Back to top
+G
+Guaranteed Minimum Pension (GMP)
+Guaranteed Minimum Pension is the minimum pension a contracted-out DB pension scheme must provide for service before 6 April 1997, as one of the conditions of contracting out of the Additional State Pension (also known as the State Second Pension (S2P) or State Earnings Related Pension Scheme (SERPS)).
+Back to top
+H
+Her Majesty's Revenue & Customs (HMRC)
+Responsible for the registration of pension schemes and the taxation of contributions and benefits.
+Back to top
+L
+Lifetime Allowance
+The Lifetime Allowance is the maximum value of pension benefits (excluding any State Pension) which you can build up across all schemes you are a member of before you have to pay an additional tax charge.
+Back to top
+P
+Pensionable Salary
+The elements of your basic salary which are used to calculate your pension contributions, and which determine the value of your benefits in a DB pension scheme.
+Pensionable Service
+The service used to calculate your pension in a DB pension scheme.
+Preserved Pension
+The pension held by a Deferred Member, that is no longer being contributed to and is not yet in payment.
+Back to top
+R
+Retired Member
+A member of the Scheme who has started to receive their pension.
+Back to top
+S
+Scheme Rules
+A legally binding document detailing the pension benefits which must be provided to members of a pension scheme.
+State Earnings Related Pension Scheme (SERPS)
+The Additional State Pension scheme that ran from 6 April 1978 to 5 April 2002. It was replaced by the State Second Pension (S2P) on 6 April 2002.
+Back to top
+T
+Cash Equivalent Transfer Value (CETV)
+This is the cash equivalent amount of your entitlement to pension benefits from the scheme. The scheme will pay this amount if you decide transfer your benefits to another registered pension scheme.
+Trustee
+The Trustee is the person(s) or company (known as a Corporate Trustee) responsible for running a pension scheme. They have a legal duty to safeguard the benefits you have earned.
+Back to top
+
+
+Wording pulled from Corvidae page:
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+A
+AA
+The Annual Allowance is the maximum amount that can be paid or built up in a pension arrangement in any tax year before an additional tax charge is payable.
+Actuary
+A pensions professional who estimates the long-term cost of providing pensions and advises on any contributions needed to fund a pension scheme, taking into account inflation, interest rates, how long people live and other factors.
+Additional State Pension
+This was paid on top of the Basic State Pension under the old State Pension, before 6 April 2016. It was based on an individual’s earnings between limits set by the Government each year.
+AVCs
+Additional Voluntary Contributions are additional contributions that you may have chosen to pay into the Digital Transformation DC while you were an active member of the Scheme. Your AVC savings pot can be used to provide additional income when you retire.
+Back to top
+B
+Basic State Pension (BSP)
+The flat rate pension paid at State Pension age under the old arrangement to a single person who has paid enough National Insurance contributions during their working life.
+Back to top
+C
+Capital Value
+The total value of your pension benefits. In a defined contribution scheme, it is simply the value of your savings pot. In a defined benefit scheme, it is usually the annual pension you are due to receive at retirement multiplied by 20 plus any lump sum you receive.
+Corporate Trustee
+A company that acts as the Trustee for a pension scheme and has a legal duty to safeguard members’ benefits.
+Back to top
+D
+Defined Benefit (DB)
+A type of pension scheme where you've earned a pension payable for life, based on how long you were in the scheme, your final pensionable salary and the pension scheme's accrual rate.
+Defined Contribution (DC)
+A type of pension scheme where you pay contributions from your salary to an individual pension savings pot. There are a number of ways you can access savings in a DC Scheme.
+Deferred member
+Either an employee or former employee of the Company who has not yet taken a pension from the Digital Transformation DC.
+Back to top
+G
+Guaranteed Minimum Pension (GMP)
+Guaranteed Minimum Pension is the minimum pension a contracted-out DB pension scheme must provide for service before 6 April 1997, as one of the conditions of contracting out of the Additional State Pension (also known as the State Second Pension (S2P) or State Earnings Related Pension Scheme (SERPS)).
+Back to top
+H
+Her Majesty's Revenue & Customs (HMRC)
+Responsible for the registration of pension schemes and the taxation of contributions and benefits.
+Back to top
+L
+Lifetime Allowance
+The Lifetime Allowance is the maximum value of pension benefits (excluding any State Pension) which you can build up across all schemes you are a member of before you have to pay an additional tax charge.
+Back to top
+P
+Pensionable Salary
+The elements of your basic salary which are used to calculate your pension contributions, and which determine the value of your benefits in a DB pension scheme.
+Pensionable Service
+The service used to calculate your pension in a DB pension scheme.
+Preserved Pension
+The pension held by a Deferred Member, that is no longer being contributed to and is not yet in payment.
+Back to top
+R
+Retired Member
+A member of the Scheme who has started to receive their pension.
+Back to top
+S
+Scheme Rules
+A legally binding document detailing the pension benefits which must be provided to members of a pension scheme.
+State Earnings Related Pension Scheme (SERPS)
+The Additional State Pension scheme that ran from 6 April 1978 to 5 April 2002. It was replaced by the State Second Pension (S2P) on 6 April 2002.
+Back to top
+T
+Cash Equivalent Transfer Value (CETV)
+This is the cash equivalent amount of your entitlement to pension benefits from the scheme. The scheme will pay this amount if you decide transfer your benefits to another registered pension scheme.
+Trustee
+The Trustee is the person(s) or company (known as a Corporate Trustee) responsible for running a pension scheme. They have a legal duty to safeguard the benefits you have earned.
+Back to top
+

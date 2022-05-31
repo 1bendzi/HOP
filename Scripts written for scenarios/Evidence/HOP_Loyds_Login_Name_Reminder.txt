@@ -1,0 +1,26 @@
+2022-05-31
+15:04:05
+R E S U L T S  O F  T H E  T E S T: Login Name Reminder page is the same for both demo and scheme page!
+
+
+Wording pulled from Loyds page:
+
+Login Name Reminder - Step 1
+On successful completion of these pages you will receive notification of your login name.
+If you have any further problems, please use the Contact Us page to contact the administration team at Capita.
+Please enter the security code shown below to proceed.
+Security Code *
+Your Email Address *
+Fields marked with an asterisk (*) are mandatory
+
+
+Wording pulled from Corvidae page:
+
+Login Name Reminder - Step 1
+On successful completion of these pages you will receive notification of your login name.
+If you have any further problems, please use the Contact Us page to contact the administration team at Capita.
+Please enter the security code shown below to proceed.
+Security Code *
+Your Email Address *
+Fields marked with an asterisk (*) are mandatory
+

@@ -1,0 +1,33 @@
+2022-05-31
+15:32:29
+R E S U L T S  O F  T H E  T E S T: Investment Options page wording is NOT the same for demo and scheme page!
+
+
+Wording pulled from PG page:
+
+My Investment Options
+The scheme offers a range of funds for you to invest in.
+The table below provides a list of the available freestyle funds (excluding the lifestyle option). To see how each fund has performed in the past, please click on the fund name below.
+Fund options
+Fund Manager Fund
+STATE STREET Cash Fund
+STATE STREET Corporate Bond Fund
+STATE STREET Emerging Markets Equity Fund
+STATE STREET Global Equity Fund
+STATE STREET UK Index Linked Gilts Over 5Yr
+STATE STREET World ESG Eqty Ind Sub-Fund Mg
+For more information on these funds please use the factsheet links below:
+No factsheets available
+The table below provides a list of the available lifestyle strategies.
+Fund strategies
+Fund Manager Lifestyle Strategy
+[Hardcode Fund Manager name or turn on auto-populate] [Hardcode Lifestyle Strategy or turn on auto-populate]
+For details of these strategies, please click on the Guide to Fund Options link below.
+No Investment Guide available
+
+
+Wording pulled from Corvidae page:
+
+Connection Error
+An error occurred while retrieving the requested data.
+

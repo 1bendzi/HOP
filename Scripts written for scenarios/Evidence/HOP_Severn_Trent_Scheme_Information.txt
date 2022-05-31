@@ -1,0 +1,30 @@
+2022-05-31
+15:20:19
+R E S U L T S  O F  T H E  T E S T: Scheme Information page wording is the same for both demo and scheme page!
+
+
+Wording pulled from Severn_Trent page:
+
+Scheme Information
+A summary of your scheme documentation is set out below
+Click below to download your policy. If your computer does not have Adobe Acrobat Reader, you can download it for free from Adobe's website.
+Documents
+No documents to display
+Forms
+No documents to display
+Further Information
+No documents to display
+
+
+Wording pulled from Corvidae page:
+
+Scheme Information
+A summary of your scheme documentation is set out below
+Click below to download your policy. If your computer does not have Adobe Acrobat Reader, you can download it for free from Adobe's website.
+Documents
+No documents to display
+Forms
+No documents to display
+Further Information
+No documents to display
+

@@ -1,0 +1,223 @@
+2022-05-27
+Line 1: 
+Scheme website: I cannot find the information I am looking for
+ 
+Demo website:   I cannot find the information I am looking for 
+ 
+Line 2: 
+Scheme website: If there is any information that you cannot find, or any queries that cannot be answered online, please Contact Us .
+ 
+Demo website:   If there is any information that you cannot find, or any queries that cannot be answered online, please Contact Us . 
+ 
+Line 3: 
+Scheme website: How do I change my postal address?
+ 
+Demo website:   How do I change my postal address? 
+ 
+Line 4: 
+Scheme website: You can change your address on the Personal Details page by clicking "View or change my address details".
+ 
+Demo website:   You can change your address on the Personal Details page by clicking "View or change my address details". 
+ 
+Line 5: 
+Scheme website: New postal addresses or postcodes may not be recognised and therefore it may be that the administration team need to update this. Please call us on 0114 273 7331 (+44 114 273 7331 from overseas) and a member of the administration team will be able to assist you.
+ 
+Demo website:   New postal addresses or postcodes may not be recognised and therefore it may be that the administration team need to update this. Please call us on 0114 273 7331 (+44 114 273 7331 from overseas) and a member of the administration team will be able to assist you. 
+ 
+Line 6: 
+Scheme website: How do I change my email address?
+ 
+Demo website:   How do I change my email address? 
+ 
+Line 7: 
+Scheme website: If you wish to change the email address, this can be changed on the Personal Details page by clicking "Change these details" or the "Change Account Details" page.
+ 
+Demo website:   If you wish to change the email address, this can be changed on the Personal Details page by clicking "Change these details" or the "Change Account Details" page. 
+ 
+Line 8: 
+Scheme website: How do I change my personal details?
+ 
+Demo website:   How do I change my personal details? 
+ 
+Line 9: 
+Scheme website: You can update your name on the Personal Details page by clicking "Change these details". You are also able to update your marital status by clicking "I wish to update my marital details".
+ 
+Demo website:   You can update your name on the Personal Details page by clicking "Change these details". You are also able to update your marital status by clicking "I wish to update my marital details". 
+ 
+Line 10: 
+Scheme website: How much tax will I pay on my retirement benefits?
+ 
+Demo website:   How much tax will I pay on my retirement benefits? 
+ 
+Line 11: 
+Scheme website: Any taxable retirement income paid to you by Capita is payable under the Pay As You Earn (PAYE) Rules. Income tax will be calculated, initially on a Month 1 (Emergency Code) basis. HM Revenue & Customs (HMRC) will be informed of your retirement and if any alteration is made to your tax code, Capita will adjust your tax position accordingly. This is usually within the first two months of your initial pension payment.
+ 
+Demo website:   Any taxable retirement income paid to you by Capita is payable under the Pay As You Earn (PAYE) Rules. Income tax will be calculated, initially on a Month 1 (Emergency Code) basis. HM Revenue & Customs (HMRC) will be informed of your retirement and if any alteration is made to your tax code, Capita will adjust your tax position accordingly. This is usually within the first two months of your initial pension payment. 
+ 
+Line 12: 
+Scheme website: It may be possible for you to receive some of your retirement benefits tax-free and these options will be set out in any retirement quotation we send you.
+ 
+Demo website:   It may be possible for you to receive some of your retirement benefits tax-free and these options will be set out in any retirement quotation we send you. 
+ 
+Line 13: 
+Scheme website: Will be I be able to receive a lump sum on retirement?
+ 
+Demo website:   Will be I be able to receive a lump sum on retirement? 
+ 
+Line 14: 
+Scheme website: You will often be able to receive a tax-free lump sum when you take your retirement benefits of up to 25% of the crystallisation value of your benefits. In some circumstances this lump must be restricted, for example if you have used up your Lifetime Allowance, or if there is a minimum level of retirement pension payable to you. These options will be set out in any retirement quotation we send you.
+ 
+Demo website:   You will often be able to receive a tax-free lump sum when you take your retirement benefits of up to 25% of the crystallisation value of your benefits. In some circumstances this lump must be restricted, for example if you have used up your Lifetime Allowance, or if there is a minimum level of retirement pension payable to you. These options will be set out in any retirement quotation we send you. 
+ 
+Line 15: 
+Scheme website: Capital Value (or Crystallisation Value)
+ 
+Demo website:   Capital Value (or Crystallisation Value) 
+ 
+Line 16: 
+Scheme website: The capital value of your pension benefits is not the annual amount of pension you currently receive (or are due to receive). Some general information on how to calculate the capital value is as follows:
+ 
+Demo website:   The capital value of your pension benefits is not the annual amount of pension you currently receive (or are due to receive). Some general information on how to calculate the capital value is as follows: 
+ 
+Line 17: 
+Scheme website: If your pension has been in payment since before 6 April 2006 â€“ to work out the capital value, your gross annual pension at 5 April 2006 is multiplied by 25 (a HMRC conversion rate). Any tax-free cash taken before 6 April 2006 is ignored.
+ 
+Demo website:   If your pension has been in payment since before 6 April 2006 â€“ to work out the capital value, your gross annual pension at 5 April 2006 is multiplied by 25 (a HMRC conversion rate). Any tax-free cash taken before 6 April 2006 is ignored. 
+ 
+Line 18: 
+Scheme website: If your pension came into payment after 5 April 2006 â€“ to work out the capital value, you should take the percentage of the Lifetime Allowance you used up when you took your benefits and multiply this by the Lifetime Allowance in force when you took your benefits.
+ 
+Demo website:   If your pension came into payment after 5 April 2006 â€“ to work out the capital value, you should take the percentage of the Lifetime Allowance you used up when you took your benefits and multiply this by the Lifetime Allowance in force when you took your benefits. 
+ 
+Line 19: 
+Scheme website: If you have pension benefits that have not yet come into payment, this will usually be your current annual pension multiplied by 20 (a HMRC conversion rate) for Defined Benefit schemes, plus any tax-free lump sum you receive on retirement, plus the amount of any money purchase benefits used to provide a taxable pension benefit (such as to buy an annuity, or to provide income drawdown).
+ 
+Demo website:   If you have pension benefits that have not yet come into payment, this will usually be your current annual pension multiplied by 20 (a HMRC conversion rate) for Defined Benefit schemes, plus any tax-free lump sum you receive on retirement, plus the amount of any money purchase benefits used to provide a taxable pension benefit (such as to buy an annuity, or to provide income drawdown). 
+ 
+Line 20: 
+Scheme website: If you require confirmation of the Capital Value of your pension benefits it is recommended that you obtain this from your pension's administrator.
+ 
+Demo website:    If you require confirmation of the Capital Value of your pension benefits it is recommended that you obtain this from your pension's administrator. 
+ 
+Line 21: 
+Scheme website: Lifetime Allowance (LTA)
+ 
+Demo website:    Lifetime Allowance (LTA) 
+ 
+Line 22: 
+Scheme website: The Lifetime Allowance is the overall limit of pension benefits you can build up while enjoying the full tax advantages of having a pension.
+ 
+Demo website:   The Lifetime Allowance is the overall limit of pension benefits you can build up while enjoying the full tax advantages of having a pension. 
+ 
+Line 23: 
+Scheme website: If your pension benefits go above this limit an additional tax charge is imposed known as the Lifetime Allowance Tax Charge. The Lifetime Allowance against which your pension benefits are measured is dependent upon the tax year in which you take your pension benefits.
+ 
+Demo website:   If your pension benefits go above this limit an additional tax charge is imposed known as the Lifetime Allowance Tax Charge. The Lifetime Allowance against which your pension benefits are measured is dependent upon the tax year in which you take your pension benefits. 
+ 
+Line 24: 
+Scheme website: For most people the Lifetime Allowance is currently set at Â£1,073,100 until the 2025/26 tax year. If your circumstances allow, it is possible to apply for a Protection Certificate from HM Revenue and Customs (HMRC) entitling you to a higher Lifetime Allowance.
+ 
+Demo website:   For most people the Lifetime Allowance is currently set at Â£1,073,100 until the 2025/26 tax year. If your circumstances allow, it is possible to apply for a Protection Certificate from HM Revenue and Customs (HMRC) entitling you to a higher Lifetime Allowance. 
+ 
+Line 25: 
+Scheme website: Annual Allowance (AA) and Money Purchase Annual Allowance (MPAA)
+ 
+Demo website:   Annual Allowance (AA) and Money Purchase Annual Allowance (MPAA) 
+ 
+Line 26: 
+Scheme website: The Annual Allowance and Money Purchase Annual Allowance are limits on the amount that you may contribute to a pension in any tax year without incurring an additional tax charge.
+ 
+Demo website:   The Annual Allowance and Money Purchase Annual Allowance are limits on the amount that you may contribute to a pension in any tax year without incurring an additional tax charge. 
+ 
+Line 27: 
+Scheme website: The Annual Allowance is currently set at Â£40,000 however, if you have been told that you are subject to the Money Purchase Annual Allowance, this will be Â£4,000 for contributions to Money Purchase schemes. If you are also contributing to a Defined Benefit scheme, contributions to that scheme will become subject to an alternative annual allowance of Â£36,000.
+ 
+Demo website:   The Annual Allowance is currently set at Â£40,000 however, if you have been told that you are subject to the Money Purchase Annual Allowance, this will be Â£4,000 for contributions to Money Purchase schemes. If you are also contributing to a Defined Benefit scheme, contributions to that scheme will become subject to an alternative annual allowance of Â£36,000. 
+ 
+Line 28: 
+Scheme website: Uncrystallised Funds Pension Lump Sum (UFPLS)
+ 
+Demo website:   Uncrystallised Funds Pension Lump Sum (UFPLS) 
+ 
+Line 29: 
+Scheme website: An UFPLS is a form of retirement benefit available from some schemes that provide Money Purchase type pension benefits.
+ 
+Demo website:   An UFPLS is a form of retirement benefit available from some schemes that provide Money Purchase type pension benefits. 
+ 
+Line 30: 
+Scheme website: When an UFPLS is paid to you, 25% of the amount will be payable tax-free with the remaining 75% subject to tax in line with Pay As You Earn (PAYE). Upon receiving payment of an UFPLS you will become subject to the Money Purchase Annual Allowance.
+ 
+Demo website:   When an UFPLS is paid to you, 25% of the amount will be payable tax-free with the remaining 75% subject to tax in line with Pay As You Earn (PAYE). Upon receiving payment of an UFPLS you will become subject to the Money Purchase Annual Allowance. 
+ 
+Line 31: 
+Scheme website: Small Pot Lump Sum (SPLS)
+ 
+Demo website:   Small Pot Lump Sum (SPLS) 
+ 
+Line 32: 
+Scheme website: An SPLS is a form of retirement benefit available from some schemes that provide Money Purchase type pension benefits.
+ 
+Demo website:   An SPLS is a form of retirement benefit available from some schemes that provide Money Purchase type pension benefits. 
+ 
+Line 33: 
+Scheme website: This is only available where the total value payable to you is less than Â£10,000 and must remove liability for all pension benefits payable to you related to the employment during which they were accrued. When an SPLS is paid to you, 25% of the amount will be payable tax-free with the remaining 75% subject to tax in line with Pay As You Earn (PAYE).
+ 
+Demo website:   This is only available where the total value payable to you is less than Â£10,000 and must remove liability for all pension benefits payable to you related to the employment during which they were accrued. When an SPLS is paid to you, 25% of the amount will be payable tax-free with the remaining 75% subject to tax in line with Pay As You Earn (PAYE). 
+ 
+Line 34: 
+Scheme website: Income Drawdown and Flexi-Access Drawdown
+ 
+Demo website:   Income Drawdown and Flexi-Access Drawdown 
+ 
+Line 35: 
+Scheme website: Income Drawdown and Flexi-Access Drawdown are forms of retirement benefit available from some schemes that provide Money Purchase type pension benefits.
+ 
+Demo website:   Income Drawdown and Flexi-Access Drawdown are forms of retirement benefit available from some schemes that provide Money Purchase type pension benefits. 
+ 
+Line 36: 
+Scheme website: Using this option you designate an amount of your funds to drawdown and, when doing so, can choose to take an amount as a tax-free Pension Commencement Lump Sum (usually up to 25% of the funds designated). The amount of funds designated to drawdown, less that taken as a tax-free lump sum, can then be used to provide a taxable income in instalments of your choosing.
+ 
+Demo website:   Using this option you designate an amount of your funds to drawdown and, when doing so, can choose to take an amount as a tax-free Pension Commencement Lump Sum (usually up to 25% of the funds designated). The amount of funds designated to drawdown, less that taken as a tax-free lump sum, can then be used to provide a taxable income in instalments of your choosing. 
+ 
+Line 37: 
+Scheme website: When a taxable income is paid to you from your drawdown funds you will become subject to the Money Purchase Annual Allowance.
+ 
+Demo website:   When a taxable income is paid to you from your drawdown funds you will become subject to the Money Purchase Annual Allowance. 
+ 
+Line 38: 
+Scheme website: Pension Commencement Lump Sum (PCLS)
+ 
+Demo website:   Pension Commencement Lump Sum (PCLS) 
+ 
+Line 39: 
+Scheme website: A PCLS is a tax-free lump sum that may be available to you when you start to receive your pension benefits. Usually up to 25% of the value of your benefits.
+ 
+Demo website:   A PCLS is a tax-free lump sum that may be available to you when you start to receive your pension benefits. Usually up to 25% of the value of your benefits. 
+ 
+Line 40: 
+Scheme website: I cannot find the information I am looking for
+ 
+Demo website:   I cannot find the information I am looking for 
+ 
+Line 41: 
+Scheme website: If there is any information that you cannot find, or any queries that cannot be answered online, please Contact Us .
+ 
+Demo website:   If there is any information that you cannot find, or any queries that cannot be answered online, please Contact Us . 
+ 
+Line 42: 
+Scheme website: Why am I asked to log in again when I was already logged in?
+ 
+Demo website:   Why am I asked to log in again when I was already logged in? 
+ 
+line 43: IDENTICAL 
+Line 44: 
+Scheme website: We recommend that you always click "Log Out" before leaving the website and closing your intenet browser.
+ 
+Demo website:   We recommend that you always click "Log Out" before leaving the website and closing your intenet browser. 
+ 
+Line 45: 
+Scheme website: Why does the website not recognise my response to the security image?
+ 
+Demo website:   Why does the website not recognise my response to the security image? 
+ 
+line 46: IDENTICAL 
