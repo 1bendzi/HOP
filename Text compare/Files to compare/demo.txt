@@ -1,46 +1,356 @@
-I cannot find the information I am looking for 
-If there is any information that you cannot find, or any queries that cannot be answered online, please Contact Us . 
-How do I change my postal address? 
-You can change your address on the Personal Details page by clicking "View or change my address details". 
-New postal addresses or postcodes may not be recognised and therefore it may be that the administration team need to update this. Please call us on 0114 273 7331 (+44 114 273 7331 from overseas) and a member of the administration team will be able to assist you. 
-How do I change my email address? 
-If you wish to change the email address, this can be changed on the Personal Details page by clicking "Change these details" or the "Change Account Details" page. 
-How do I change my personal details? 
-You can update your name on the Personal Details page by clicking "Change these details". You are also able to update your marital status by clicking "I wish to update my marital details". 
-How much tax will I pay on my retirement benefits? 
-Any taxable retirement income paid to you by Capita is payable under the Pay As You Earn (PAYE) Rules. Income tax will be calculated, initially on a Month 1 (Emergency Code) basis. HM Revenue & Customs (HMRC) will be informed of your retirement and if any alteration is made to your tax code, Capita will adjust your tax position accordingly. This is usually within the first two months of your initial pension payment. 
-It may be possible for you to receive some of your retirement benefits tax-free and these options will be set out in any retirement quotation we send you. 
-Will be I be able to receive a lump sum on retirement? 
-You will often be able to receive a tax-free lump sum when you take your retirement benefits of up to 25% of the crystallisation value of your benefits. In some circumstances this lump must be restricted, for example if you have used up your Lifetime Allowance, or if there is a minimum level of retirement pension payable to you. These options will be set out in any retirement quotation we send you. 
-Capital Value (or Crystallisation Value) 
-The capital value of your pension benefits is not the annual amount of pension you currently receive (or are due to receive). Some general information on how to calculate the capital value is as follows: 
-If your pension has been in payment since before 6 April 2006 â€“ to work out the capital value, your gross annual pension at 5 April 2006 is multiplied by 25 (a HMRC conversion rate). Any tax-free cash taken before 6 April 2006 is ignored. 
-If your pension came into payment after 5 April 2006 â€“ to work out the capital value, you should take the percentage of the Lifetime Allowance you used up when you took your benefits and multiply this by the Lifetime Allowance in force when you took your benefits. 
-If you have pension benefits that have not yet come into payment, this will usually be your current annual pension multiplied by 20 (a HMRC conversion rate) for Defined Benefit schemes, plus any tax-free lump sum you receive on retirement, plus the amount of any money purchase benefits used to provide a taxable pension benefit (such as to buy an annuity, or to provide income drawdown). 
- If you require confirmation of the Capital Value of your pension benefits it is recommended that you obtain this from your pension's administrator. 
- Lifetime Allowance (LTA) 
-The Lifetime Allowance is the overall limit of pension benefits you can build up while enjoying the full tax advantages of having a pension. 
-If your pension benefits go above this limit an additional tax charge is imposed known as the Lifetime Allowance Tax Charge. The Lifetime Allowance against which your pension benefits are measured is dependent upon the tax year in which you take your pension benefits. 
-For most people the Lifetime Allowance is currently set at Â£1,073,100 until the 2025/26 tax year. If your circumstances allow, it is possible to apply for a Protection Certificate from HM Revenue and Customs (HMRC) entitling you to a higher Lifetime Allowance. 
-Annual Allowance (AA) and Money Purchase Annual Allowance (MPAA) 
-The Annual Allowance and Money Purchase Annual Allowance are limits on the amount that you may contribute to a pension in any tax year without incurring an additional tax charge. 
-The Annual Allowance is currently set at Â£40,000 however, if you have been told that you are subject to the Money Purchase Annual Allowance, this will be Â£4,000 for contributions to Money Purchase schemes. If you are also contributing to a Defined Benefit scheme, contributions to that scheme will become subject to an alternative annual allowance of Â£36,000. 
-Uncrystallised Funds Pension Lump Sum (UFPLS) 
-An UFPLS is a form of retirement benefit available from some schemes that provide Money Purchase type pension benefits. 
-When an UFPLS is paid to you, 25% of the amount will be payable tax-free with the remaining 75% subject to tax in line with Pay As You Earn (PAYE). Upon receiving payment of an UFPLS you will become subject to the Money Purchase Annual Allowance. 
-Small Pot Lump Sum (SPLS) 
-An SPLS is a form of retirement benefit available from some schemes that provide Money Purchase type pension benefits. 
-This is only available where the total value payable to you is less than Â£10,000 and must remove liability for all pension benefits payable to you related to the employment during which they were accrued. When an SPLS is paid to you, 25% of the amount will be payable tax-free with the remaining 75% subject to tax in line with Pay As You Earn (PAYE). 
-Income Drawdown and Flexi-Access Drawdown 
-Income Drawdown and Flexi-Access Drawdown are forms of retirement benefit available from some schemes that provide Money Purchase type pension benefits. 
-Using this option you designate an amount of your funds to drawdown and, when doing so, can choose to take an amount as a tax-free Pension Commencement Lump Sum (usually up to 25% of the funds designated). The amount of funds designated to drawdown, less that taken as a tax-free lump sum, can then be used to provide a taxable income in instalments of your choosing. 
-When a taxable income is paid to you from your drawdown funds you will become subject to the Money Purchase Annual Allowance. 
-Pension Commencement Lump Sum (PCLS) 
-A PCLS is a tax-free lump sum that may be available to you when you start to receive your pension benefits. Usually up to 25% of the value of your benefits. 
-I cannot find the information I am looking for 
-If there is any information that you cannot find, or any queries that cannot be answered online, please Contact Us . 
-Why am I asked to log in again when I was already logged in? 
-There are several possible reasons that you were asked to log in again; the most likely is that your web browser was inactive for a certain amount of time. This is a safety precaution we have put in place to help prevent unauthorised access to your account.
-We recommend that you always click "Log Out" before leaving the website and closing your intenet browser. 
-Why does the website not recognise my response to the security image? 
-Under certain circumstances the security image shown to you can be temporarily stored on your computer and result in a different image displaying in your browser than it should. By default, with the majority of internet browsers, this should not happen. To ensure this isn't problematic, you can perform a "hard refresh" of the image using Ctrl+F5 (Options+Cmd+E on Mac using Safari).
+2022-05-31
+*MENU HEADERS: *
+Reminders
+Login Name Reminder
+Reset Password
+Reset PIN
+Apply To Join The Scheme
+Application Options
+Scheme Communications
+Pensions Compass
+Scheme Information
+Investments
+Investment Options
+General Information
+Contact Us
+Useful Addresses
+Useful Terms
+*HEADER RIGHT SIDE ELEMENTS: *
+A A A
+Contact Us
+Home
+Login
+Register
+Contact Us font-size when biggest A is selected (correct value is: 26px): 26px
+Contact Us font-size when middle A is selected (correct value is: 23px): 23px
+Contact Us font-size when smallest A is selected (correct value is: 20px): 20px
+*Page Body ELEMENTS: *
+Welcome
+to the Digital Transformation DC.
+Already have an account?
+Login
+New to the site?
+Register
+*Footer ELEMENTS: *
+Capita plc Capita
+Accessibility Privacy & Cookie Policy FAQ Terms & Conditions
+Capita Pension Solutions is a trading name of Capita Pension Solutions Limited and Capita Employee Benefits (Consulting) Limited. Part of Capita plc. www.capita.com. Capita Pension Solutions Limited and Capita Employee Benefits (Consulting) Limited are registered in England & Wales No: 02260524 and 01860772 respectively. Registered Office: 65 Gresham Street, London, EC2V 7NQ. Separately authorised and regulated by the Financial Conduct Authority
+*Contact Us WORDING: *
+Contact Us
+If you would like to contact us for any further information, click the Contact Us button below:
+Alternatively you can write to us at:
+Digital Transformation Auto Enrolment
+Capita Employee Solutions
+PO Box 555
+Stead House
+Darlington
+DL1 9YT
+United Kingdom
+Or telephone us on: 0114 2737331
+Or email us at: CHWebSupport@capita.co.uk
+Please quote your National Insurance Number in any correspondence.
+Our aim is to deliver the highest possible standards of service to our customers. If you are dissatisfied with any aspect of the service that you have received from the Scheme please get in touch using the contact details above.
+*LOGIN WORDING (from header button): *
+1
+Login Name
+2
+Password & PIN
+3
+Confirmation
+Login Name
+Your Login Name
+In order to ensure your queries are directed to the correct team, please login to your retirement account where a range of options will be available to you.
+*REGISTER WORDING (from header button): *
+1
+Registration
+2
+PIN Entry
+3
+Welcome
+Welcome to the Scheme website. In order to access your pension account you will need to register. You can do this by entering your login details which you will use to log in to the site. We will need your contact details so we can send you a log in reminder and any password or PIN resets you may need. We will also let you know if you get any mail from the Scheme.
+As a security measure, you will be sent a Personal Identification Number (PIN) which you will need to access the site. You can choose how to receive this PIN using the drop-down box below.
+* information required
+Login Details
+The login name you choose must
+Be a minimum of six characters (letters or numbers) with a maximum of 40
+Login Name *
+The password you choose must meet all of the following:
+Be 8 or more characters long
+Must contain number(s)
+Must contain lower case letter(s)
+Must contain an upper case letter OR punctuation character
+It is strongly advised you do not enter a password that you have previously used
+Password *
+Confirm Password *
+Security Question *
+Security Answer *
+Contact Details
+Your Email Address *
+Confirm Email Address *
+Mobile Telephone Number*
+(UK) +44
+I wish to receive my PIN via *
+Email
+Multi-Factor Authentication
+Authentication Method *
+None
+Personal Details
+National Insurance Number *
+Surname *
+Gender *
+Male
+Date of Birth *
+The input is / separated
+Please enter the Security Code shown below to proceed
+Security Code *
+I have read and agree with the Terms and Conditions
+*LOGIN NAME REMINDER WORDING: *
+Login Name Reminder - Step 1
+On successful completion of these pages you will receive notification of your login name.
+If you have any further problems, please use the Contact Us page to contact the administration team at Capita.
+Please enter the security code shown below to proceed.
+Security Code *
+Your Email Address *
+Fields marked with an asterisk (*) are mandatory
+*RESET PASSWORD WORDING: *
+Reset Password - Step 1
+On successful completion of these pages you will receive notification of your new password.
+If you have any further problems, please use the Contact Us page to contact the administration team at Capita.
+Please enter the Security Code shown below to proceed
+Security Code *
+Your Email Address
+*RESET PIN WORDING: *
+Reset PIN - Step 1
+On successful completion of these pages you will receive notification of your new PIN.
+If you have any further problems, please use the Contact Us page to contact the administration team at Capita.
+Please enter the Security Code shown below to proceed
+Security Code *
+Your Email Address
+*Application Options page WORDING: *
+Apply for Membership
+The online enrolment form is not available.
+If you have any further questions, please contact us. However, please be aware that neither your Employer, nor the Trustee(s), nor Administration Team are authorised to provide you with financial advice.
+*Scheme Information WORDING: *
+Scheme Information
+A summary of your scheme documentation is set out below
+Click below to download your policy. If your computer does not have Adobe Acrobat Reader, you can download it for free from Adobe's website.
+Documents
+No documents to display
+Forms
+No documents to display
+Further Information
+No documents to display
+*Investment Options WORDING: *
+Connection Error
+An error occurred while retrieving the requested data.
+*Useful Addresses WORDING: *
+Useful Addresses
+Government websites on pensions
+The Pensions Regulator
+View
+Money Helper Service
+View
+The Pensions Advisory Service
+View
+The Pension Service
+View
+The Pensions Ombudsman
+View
+Financial Services websites
+Financial Conduct Authority
+View
+Other
+No addresses to display
+*Useful Terms WORDING: *
+A
+AA
+The Annual Allowance is the maximum amount that can be paid or built up in a pension arrangement in any tax year before an additional tax charge is payable.
+Actuary
+A pensions professional who estimates the long-term cost of providing pensions and advises on any contributions needed to fund a pension scheme, taking into account inflation, interest rates, how long people live and other factors.
+Additional State Pension
+This was paid on top of the Basic State Pension under the old State Pension, before 6 April 2016. It was based on an individual’s earnings between limits set by the Government each year.
+AVCs
+Additional Voluntary Contributions are additional contributions that you may have chosen to pay into the Digital Transformation Auto Enrolment while you were an active member of the Scheme. Your AVC savings pot can be used to provide additional income when you retire.
+Back to top
+B
+Basic State Pension (BSP)
+The flat rate pension paid at State Pension age under the old arrangement to a single person who has paid enough National Insurance contributions during their working life.
+Back to top
+C
+Capital Value
+The total value of your pension benefits. In a defined contribution scheme, it is simply the value of your savings pot. In a defined benefit scheme, it is usually the annual pension you are due to receive at retirement multiplied by 20 plus any lump sum you receive.
+Corporate Trustee
+A company that acts as the Trustee for a pension scheme and has a legal duty to safeguard members’ benefits.
+Back to top
+D
+Defined Benefit (DB)
+A type of pension scheme where you've earned a pension payable for life, based on how long you were in the scheme, your final pensionable salary and the pension scheme's accrual rate.
+Defined Contribution (DC)
+A type of pension scheme where you pay contributions from your salary to an individual pension savings pot. There are a number of ways you can access savings in a DC Scheme.
+Deferred member
+Either an employee or former employee of the Company who has not yet taken a pension from the Digital Transformation Auto Enrolment .
+Back to top
+G
+Guaranteed Minimum Pension (GMP)
+Guaranteed Minimum Pension is the minimum pension a contracted-out DB pension scheme must provide for service before 6 April 1997, as one of the conditions of contracting out of the Additional State Pension (also known as the State Second Pension (S2P) or State Earnings Related Pension Scheme (SERPS)).
+Back to top
+H
+Her Majesty's Revenue & Customs (HMRC)
+Responsible for the registration of pension schemes and the taxation of contributions and benefits.
+Back to top
+L
+Lifetime Allowance
+The Lifetime Allowance is the maximum value of pension benefits (excluding any State Pension) which you can build up across all schemes you are a member of before you have to pay an additional tax charge.
+Back to top
+P
+Pensionable Salary
+The elements of your basic salary which are used to calculate your pension contributions, and which determine the value of your benefits in a DB pension scheme.
+Pensionable Service
+The service used to calculate your pension in a DB pension scheme.
+Preserved Pension
+The pension held by a Deferred Member, that is no longer being contributed to and is not yet in payment.
+Back to top
+R
+Retired Member
+A member of the Scheme who has started to receive their pension.
+Back to top
+S
+Scheme Rules
+A legally binding document detailing the pension benefits which must be provided to members of a pension scheme.
+State Earnings Related Pension Scheme (SERPS)
+The Additional State Pension scheme that ran from 6 April 1978 to 5 April 2002. It was replaced by the State Second Pension (S2P) on 6 April 2002.
+Back to top
+T
+Cash Equivalent Transfer Value (CETV)
+This is the cash equivalent amount of your entitlement to pension benefits from the scheme. The scheme will pay this amount if you decide transfer your benefits to another registered pension scheme.
+Trustee
+The Trustee is the person(s) or company (known as a Corporate Trustee) responsible for running a pension scheme. They have a legal duty to safeguard the benefits you have earned.
+Back to top
+*LOGIN WORDING (from main page button): *
+1
+Login Name
+2
+Password & PIN
+3
+Confirmation
+Login Name
+Your Login Name
+In order to ensure your queries are directed to the correct team, please login to your retirement account where a range of options will be available to you.
+*REGISTER WORDING (from main page button): *
+1
+Registration
+2
+PIN Entry
+3
+Welcome
+Welcome to the Scheme website. In order to access your pension account you will need to register. You can do this by entering your login details which you will use to log in to the site. We will need your contact details so we can send you a log in reminder and any password or PIN resets you may need. We will also let you know if you get any mail from the Scheme.
+As a security measure, you will be sent a Personal Identification Number (PIN) which you will need to access the site. You can choose how to receive this PIN using the drop-down box below.
+* information required
+Login Details
+The login name you choose must
+Be a minimum of six characters (letters or numbers) with a maximum of 40
+Login Name *
+The password you choose must meet all of the following:
+Be 8 or more characters long
+Must contain number(s)
+Must contain lower case letter(s)
+Must contain an upper case letter OR punctuation character
+It is strongly advised you do not enter a password that you have previously used
+Password *
+Confirm Password *
+Security Question *
+Security Answer *
+Contact Details
+Your Email Address *
+Confirm Email Address *
+Mobile Telephone Number*
+(UK) +44
+I wish to receive my PIN via *
+Email
+Multi-Factor Authentication
+Authentication Method *
+None
+Personal Details
+National Insurance Number *
+Surname *
+Gender *
+Male
+Date of Birth *
+The input is / separated
+Please enter the Security Code shown below to proceed
+Security Code *
+I have read and agree with the Terms and Conditions
+*Accessibility WORDING: *
+Accessibility
+It is vital that websites are accessible to everyone - not only does it make good business sense, but it is also a legal requirement for businesses and organisations to make reasonable adjustments to provide accessible services or information.
+One of the main goals of the World Wide Web Consortium (W3C) is to make the web accessible to all by promoting technologies that take into account the vast differences in culture, languages, education, ability, material resources, access devices, and physical limitations of users on all continents.
+We are also in the process of applying for WAI certification via the Shaw Trust.
+For further information about W3C, visit www.w3.org.
+Browser Customisations
+Depending on the web browser you are using, there are a number of ways to change the way our web pages are displayed in order to make it easier for you to get the most out of them. For example you can:
+Permanently apply font and colour changes
+Enlarge text
+Change text and background colour
+Prevent graphics and images appearing
+Change the size of the window
+Change the colour of links displayed on a screen
+For details on how to apply changes such as these please refer to the help section or website of your web browser.
+Cascading Style Sheet (CSS)
+We have aimed to make our website as accessible as possible and to ensure that it remains usable if the CSS is disabled.
+Links to External Websites
+We are not responsible for the content of external websites linked to from this website as such we can not guarantee the accuracy of our links to these websites. If you notice any links that no longer go to the correct page please contact us.
+Useful Downloads from Adobe
+Some documents contained within this website are in Adobe Acrobat PDF (Portable Document Format). Such documents will be marked with the icon. To view these documents you will need to download Acrobat Reader which can be obtained from Adobe's website www.adobe.com.
+Access technology cannot easily read PDF files. Adobe have created a website www.adobe.com/uk which provides tools to help make PDF files more accessible to the visually disabled. These tools convert PDF documents into HTML or ASCII text so that they can then be read by a number of common screen reading programs that synthesise text as audible speech.
+*Privacy & Cookie Policy WORDING: *
+Privacy and Cookie Policy
+This Privacy Policy is supplemental to the Hartlink terms and conditions, and which, by continuing to access the Hartlink website you are deemed to accept and agree to be bound by.
+Privacy Policy
+We are committed to ensuring that your privacy is protected. This Privacy Notice explains how we use information about you:
+which your employer or pension scheme trustee has provided to us, and
+any additional information you provide through the Hartlink Online Portal (our Site).
+Depending on the services we are providing to your employer or pension scheme trustee you may be able to limit the use of that information, and where that is possible this is explained below.
+This notice also explains the procedures that we have in place to safeguard your privacy.
+Who is collecting information about me?
+What information are you collecting about me?
+Why are you collecting this information?
+Who might you share my information with?
+Where might you transfer my information outside the EEA?
+How long do you need to keep my information?
+What if I choose not to give you my personal information?
+Will you process my information for purposes I may not be aware of?
+What rights do I have?
+Cookie Policy
+This Cookie Policy is supplemental to the Hartlink terms and conditions, and which, by continuing to access the Hartlink website you are deemed to accept and agree to be bound by.
+We are committed to ensuring that your data is protected. This Cookie Policy explains how we use the information we collect about you by our use of cookies, and the purpose for which we use them.
+At any time you can manage cookie settings in order to give or withdraw your consent to non essential cookies
+1. Information about our use of cookies and other information gathering technologies
+2. Third party cookies
+3. Disabling cookies and other information gathering technologies
+*FAQ WORDING: *
+How do I register?
+I have not received a PIN
+Login Name, Password and PIN
+My account is locked
+The website will not accept my email address
+Why am I asked to log in again when I was already logged in?
+Why does the website not recognise my response to the security image?
+*Terms & Conditions WORDING: *
+Terms and Conditions
+Please read these terms and conditions carefully before using this site. By accessing and using this site, you agree to be bound by the terms of use set out below.
+Terms of website use
+Information about us
+Other applicable terms and interpretation
+Changes to these terms and to our Site
+Access to the Site
+Your account and password
+Ownership of our Site and its content
+Information, not advice
+No warranties
+Internet e‐mail
+Your data and our Privacy Policy
+Email or SMS contact preference
+Third party services
+Use of the website
+Complaints policy and procedure
+Jurisdiction

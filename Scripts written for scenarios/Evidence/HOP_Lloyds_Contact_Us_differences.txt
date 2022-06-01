@@ -1,0 +1,20 @@
+Lines starting with - are from Lloyds scheme
+Lines starting with + are from demo
+
+  Contact Us
+  If you would like to contact us for any further information, click the Contact Us button below:
+  Alternatively you can write to us at:
+- Lloyd's Pension Scheme
++ Digital Transformation Auto Enrolment
+  Capita Employee Solutions
+  PO Box 555
+  Stead House
+  Darlington
+  DL1 9YT
+  United Kingdom
+  Or telephone us on: 0114 2737331
+  Or email us at: CHWebSupport@capita.co.uk
+  Please quote your National Insurance Number in any correspondence.
+  Our aim is to deliver the highest possible standards of service to our customers. If you are dissatisfied with any aspect of the service that you have received from the Scheme please get in touch using the contact details above.
+  
+  

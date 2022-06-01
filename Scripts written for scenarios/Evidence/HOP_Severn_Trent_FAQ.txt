@@ -1,0 +1,26 @@
+2022-06-01
+11:27:35
+R E S U L T S  O F  T H E  T E S T: FAQ page headers are the same for both demo and scheme page!
+
+
+Wording pulled from Severn_Trent page:
+
+How do I register?
+I have not received a PIN
+Login Name, Password and PIN
+My account is locked
+The website will not accept my email address
+Why am I asked to log in again when I was already logged in?
+Why does the website not recognise my response to the security image?
+
+
+Wording pulled from Corvidae page:
+
+How do I register?
+I have not received a PIN
+Login Name, Password and PIN
+My account is locked
+The website will not accept my email address
+Why am I asked to log in again when I was already logged in?
+Why does the website not recognise my response to the security image?
+

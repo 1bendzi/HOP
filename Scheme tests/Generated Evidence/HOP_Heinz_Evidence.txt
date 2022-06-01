@@ -1,4 +1,4 @@
-2022-05-25
+2022-06-01
 *MENU HEADERS: *
 Reminders
 Login Name Reminder
@@ -338,7 +338,7 @@ Links to External Websites
 We are not responsible for the content of external websites linked to from this website as such we can not guarantee the accuracy of our links to these websites. If you notice any links that no longer go to the correct page please contact us.
 Useful Downloads from Adobe
 Some documents contained within this website are in Adobe Acrobat PDF (Portable Document Format). Such documents will be marked with the icon. To view these documents you will need to download Acrobat Reader which can be obtained from Adobe's website www.adobe.com.
-Access technology cannot easily read PDF files. Adobe have created a website http://www.adobe.com/uk which provides tools to help make PDF files more accessible to the visually disabled. These tools convert PDF documents into HTML or ASCII text so that they can then be read by a number of common screen reading programs that synthesise text as audible speech.
+Access technology cannot easily read PDF files. Adobe have created a website www.adobe.com/uk which provides tools to help make PDF files more accessible to the visually disabled. These tools convert PDF documents into HTML or ASCII text so that they can then be read by a number of common screen reading programs that synthesise text as audible speech.
 
 *Privacy & Cookie Policy WORDING: *
 Privacy and Cookie Policy
