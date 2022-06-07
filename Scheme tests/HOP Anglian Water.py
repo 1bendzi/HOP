@@ -312,7 +312,8 @@ Useful Terms
 
         evidence_file.write("\n")
         evidence_file.close() 
+        print("\033[1mEvidence file was successfully generated!\033[0m\n")
     else:
-        print ('Menu elements are different to demo website!!!')
+        print ('\n\033[1mMenu elements are different to demo website therefore, the page will not be scraped!\033[1m\n')
 
 driver.quit()

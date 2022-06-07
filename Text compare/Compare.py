@@ -1,5 +1,7 @@
 import difflib
 
+# removing empty lines from both files
+
 string_without_empty_lines=""
 with open("Text compare\Files to compare\scheme.txt", encoding="utf-8") as scheme_website_evidence:
     for line in scheme_website_evidence:
@@ -20,6 +22,8 @@ demo_website_evidence = open("Text compare\Files to compare\demo.txt","w", encod
 demo_website_evidence.write(string_without_empty_lines)
 demo_website_evidence.close()
 
+# loading text from both files to program memory
+
 scheme_website_evidence = open("Text compare\Files to compare\scheme.txt","r", encoding="utf-8")
 demo_website_evidence = open("Text compare\Files to compare\demo.txt","r", encoding="utf-8")
 
@@ -28,6 +32,8 @@ demo_wording = demo_website_evidence.read()
 
 scheme_website_evidence.close()
 demo_website_evidence.close()
+
+# creating evidence file with difference between the files
 
 evidence_file_diff = open("Text compare\Evidence\Difference.txt","w", encoding="utf-8")
 evidence_file_diff.close()
@@ -38,3 +44,7 @@ d = difflib.Differ()
 diff = d.compare(scheme_wording_list, demo_wording_list)
 evidence_file_diff.write('\n'.join(diff))
 evidence_file_diff.close()
+
+# info about generating evidence file
+
+print("\n\033[1mEvidence file was successfully generated!\033[0m\n")

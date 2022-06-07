@@ -1,6 +1,6 @@
 2022-06-07
-10:08:08
-Lines starting with - are from Anglian_Water scheme
+10:08:22
+Lines starting with - are from Lloyds scheme
 Lines starting with + are from demo
 
   2022-06-07
@@ -34,7 +34,7 @@ Lines starting with + are from demo
   
   *Page Body ELEMENTS: *
   Welcome
-- to the Anglian Water Group Pension Scheme.
+- to the Lloyd's Pension Scheme.
 + to the Digital Transformation DC.
   Already have an account?
   Login
@@ -50,7 +50,7 @@ Lines starting with + are from demo
   Contact Us
   If you would like to contact us for any further information, click the Contact Us button below:
   Alternatively you can write to us at:
-- Anglian Water Group Pension Scheme
+- Lloyd's Pension Scheme
 + Digital Transformation Auto Enrolment
   Capita Employee Solutions
   PO Box 555
@@ -192,11 +192,11 @@ Lines starting with + are from demo
   Additional State Pension
   This was paid on top of the Basic State Pension under the old State Pension, before 6 April 2016. It was based on an individual’s earnings between limits set by the Government each year.
   AVCs
-- Additional Voluntary Contributions are additional contributions that you may have chosen to pay into the Anglian Water Group Pension Scheme while you were an active member of the Scheme. Your AVC savings pot can be used to provide additional income when you retire.
-?                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Additional Voluntary Contributions are additional contributions that you may have chosen to pay into the Lloyd's Pension Scheme while you were an active member of the Scheme. Your AVC savings pot can be used to provide additional income when you retire.
+?                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^
 
 + Additional Voluntary Contributions are additional contributions that you may have chosen to pay into the Digital Transformation Auto Enrolment while you were an active member of the Scheme. Your AVC savings pot can be used to provide additional income when you retire.
-?                                                                                                          +++++++++++++++++++++++ ^^^^^^^^^^^^^
+?                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   Back to top
   B
@@ -215,11 +215,11 @@ Lines starting with + are from demo
   Defined Contribution (DC)
   A type of pension scheme where you pay contributions from your salary to an individual pension savings pot. There are a number of ways you can access savings in a DC Scheme.
   Deferred member
-- Either an employee or former employee of the Company who has not yet taken a pension from the Anglian Water Group Pension Scheme.
-?                                                                                               ^^  ^  ^^  -------------    ^^^^
+- Either an employee or former employee of the Company who has not yet taken a pension from the Lloyd's Pension Scheme.
+?                                                                                               ^ ----- ^^      ^^^^
 
 + Either an employee or former employee of the Company who has not yet taken a pension from the Digital Transformation Auto Enrolment .
-?                                                                                               ^^ +++ ^^^  ^^^^^      ^^^^^^^^^^  +++
+?                                                                                               ^^^^^^  ^^^  ++++++    ^^^^^^^^^^  +++
 
   Back to top
   G

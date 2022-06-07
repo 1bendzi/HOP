@@ -19,7 +19,7 @@ Severn Trent: https://qaportal.hartlinkonline.co.uk/severntrent
 AT&T: https://qaportal.hartlinkonline.co.uk/attpensionscheme
 ''')
 url = input('Paste scheme website you want to test (you can paste link here by using right click):\n')
-scheme_name = input("Please enter scheme name that you want to test (don't use '&' and seperate words with '_'\n")
+scheme_name = input("\nPlease enter evidence file name (file name will look like this: HOP_<text that you're going to type now>_<name of the subpage>.txt):\n")
 
 evidence_file = open(f"Scripts written for scenarios\Evidence\HOP_{scheme_name}_Useful_Terms.txt","w") 
 evidence_file.close()
@@ -81,3 +81,5 @@ else:
     diff = d.compare(scheme_wording_list, demo_wording_list)
     evidence_file_diff.write('\n'.join(diff))
     evidence_file_diff.close()
+
+print("\033[1mEvidence file was successfully generated!\033[0m\n")

@@ -12,15 +12,15 @@ from HOP_functions import *
 # from urllib import request 
 
 today = str(date.today())
-evidence_file = open("Scheme tests\Generated Evidence\HOP_Heinz_Evidence.txt","w") #clearing file before saving anything in it 
+evidence_file = open("Scheme tests\Generated Evidence\HOP_ATT_Evidence.txt","w") #clearing file before saving anything in it 
 evidence_file.close()
-evidence_file = open("Scheme tests\Generated Evidence\HOP_Heinz_Evidence.txt","a", encoding="utf-8")
+evidence_file = open("Scheme tests\Generated Evidence\HOP_ATT_Evidence.txt","a", encoding="utf-8")
 evidence_file.write(f"{today}\n")
 
 
 chromedriver_autoinstaller.install()  
 driver = webdriver.Chrome()
-driver.get("https://qaportal.hartlinkonline.co.uk/heinzpensions")
+driver.get("https://qaportal.hartlinkonline.co.uk/attpensionscheme")
 driver.maximize_window()
 accept_cookies(driver)
 open_menu(driver)
@@ -35,7 +35,7 @@ for x in range(len(menu_items)):
 evidence_file.write("\n")
 evidence_file.close()
 
-with open("Scheme tests\Generated Evidence\HOP_Heinz_Evidence.txt") as file:
+with open("Scheme tests\Generated Evidence\HOP_ATT_Evidence.txt") as file:
     contents = file.read()
     search_word = str('''*MENU HEADERS: *
 Reminders
@@ -56,7 +56,7 @@ Useful Terms
 
 ''')
     if search_word in contents:
-        evidence_file = open("Scheme tests\Generated Evidence\HOP_Heinz_Evidence.txt","a", encoding="utf-8")
+        evidence_file = open("Scheme tests\Generated Evidence\HOP_ATT_Evidence.txt","a", encoding="utf-8")
 
                 # H E A D E R  R I G H T  S I D E 
 
