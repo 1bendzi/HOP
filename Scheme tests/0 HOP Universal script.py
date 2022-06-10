@@ -9,13 +9,18 @@ import time
 import logging
 import os
 
+# lines 120-131 are commented because all new scheme pages are missing "general information" header in menu. If I would left that in the script it wouldn't work. 
+
 logging.getLogger('WDM').setLevel(logging.NOTSET)
 os.environ['WDM_LOG'] = "false"
 
-print("\n\033[1mScript has been started!\033[0m\n")
-evidence_file = open("Scheme tests\Generated Evidence\HOP_Corvidae_Evidence.txt","w")  
+url = input('Paste scheme website you want to test (you can paste link here by using right click):\n')
+scheme_name = input("\nPlease enter evidence file name (file name will look like this: HOP_<\033[1mtext that you're going to type below\033[0m>_<name of the subpage>.txt):\n")
+print('-' * 120)
+
+evidence_file = open(f"Scheme tests\Generated Evidence\HOP_{scheme_name}_Evidence.txt","w") 
 evidence_file.close()
-evidence_file = open("Scheme tests\Generated Evidence\HOP_Corvidae_Evidence.txt","a", encoding="utf-8")
+evidence_file = open(f"Scheme tests\Generated Evidence\HOP_{scheme_name}_Evidence.txt","a", encoding="utf-8")
 
 now = datetime.now()
 today = str(date.today())
@@ -27,11 +32,11 @@ evidence_file.write('\n')
 options = Options()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options) 
-driver.get("https://qaportal.hartlinkonline.co.uk/corvidae")
+driver.get(f"{url}")
 driver.maximize_window()
 accept_cookies(driver)
 
-# M E N U  H E A D E R S - T E S T 
+# M E N U  H E A D E R S 
 
 open_menu(driver)
 evidence_file.write(f"\n*MENU HEADERS: *\n")
@@ -66,7 +71,7 @@ evidence_file.write(f"*Footer ELEMENTS: *\n")
 save_text_to_evidence_by_class(driver, evidence_file, 'hop-footer')
 
 # C O N T A C T  U S
-open_contact_us_demo(driver)
+open_contact_us_scheme(driver)
 evidence_file.write(f"*Contact Us WORDING: *\n")
 save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
 
@@ -100,7 +105,7 @@ open_application_options(driver)
 evidence_file.write(f"*Application Options page WORDING: *\n")
 save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
 
-# P E N S I O N  C O M M U N I C A T I O N (LINK CHECK, EXTERNAL PAGE)
+# P E N S I O N  C O M M U N I C A T I O N (EXTERNAL PAGE)
 
 # S C H E M E  I N F O R M A T I O N 
 open_scheme_info(driver)
@@ -112,18 +117,18 @@ open_inv_options(driver)
 evidence_file.write(f"*Investment Options WORDING: *\n")
 save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
 
-# C O N T A C T  U S (ACCESSED FROM MENU)
-open_contact_us_menu(driver)
+# # C O N T A C T  U S (ACCESSED FROM MENU)
+# open_contact_us_scheme(driver)
 
-# U S E F U L  A D D R E S S E S
-open_useful_addresses(driver)
-evidence_file.write(f"*Useful Addresses WORDING: *\n")
-save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+# # U S E F U L  A D D R E S S E S
+# open_useful_addresses(driver)
+# evidence_file.write(f"*Useful Addresses WORDING: *\n")
+# save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
 
-# U S E F U L  T E R M S 
-open_useful_terms(driver)
-evidence_file.write(f"*Useful Terms WORDING: *\n")
-save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+# # U S E F U L  T E R M S 
+# open_useful_terms(driver)
+# evidence_file.write(f"*Useful Terms WORDING: *\n")
+# save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
 
 # L O G I N (ACCESSED FROM PAGE BODY BUTTON)
 open_login_main(driver)
@@ -135,9 +140,9 @@ open_register_main(driver)
 evidence_file.write(f"*REGISTER WORDING (from main page button): *\n")
 save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div[1]/div[2]/div[2]')
 
-# C A P I T A  P L C  (LINK CHECK, EXTERNAL PAGE)
+# C A P I T A  P L C  (EXTERNAL PAGE)
 
-# C A P I T A (LINK CHECK, EXTERNAL PAGE)
+# C A P I T A (EXTERNAL PAGE)
 
 # A C C E S S I B I L I T Y 
 open_accessibility(driver)
@@ -176,8 +181,8 @@ open_terms(driver)
 evidence_file.write(f"*Terms & Conditions WORDING: *\n")
 save_text_to_evidence_by_xpath(driver, evidence_file, '//*[@id="tncPage"]')
 
-
 evidence_file.close() 
+
 print('-' * 120)
 print("\n\033[1mEvidence file was successfully generated!\033[0m\n")
 

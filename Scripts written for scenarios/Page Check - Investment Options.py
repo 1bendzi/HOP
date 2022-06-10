@@ -3,23 +3,21 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By 
 from selenium.webdriver.support.ui import WebDriverWait 
 from selenium.webdriver.support import expected_conditions as EC
-import chromedriver_autoinstaller
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from datetime import date, datetime
 from HOP_functions import *
 import difflib
+import logging
+import os
 
-url_list = print('''
-Anglian Water: https://qaportal.hartlinkonline.co.uk/myawgpension
-Heinz: https://qaportal.hartlinkonline.co.uk/heinzpensions
-Lloyds: https://qaportal.hartlinkonline.co.uk/lloydspensionscheme
-M&S: https://qaportal.hartlinkonline.co.uk/mandspensionscheme
-Pfizer: https://qaportal.hartlinkonline.co.uk/pfizer
-P&G: https://qaportal.hartlinkonline.co.uk/procterandgamble
-Severn Trent: https://qaportal.hartlinkonline.co.uk/severntrent
-AT&T: https://qaportal.hartlinkonline.co.uk/attpensionscheme
-''')
+logging.getLogger('WDM').setLevel(logging.NOTSET)
+os.environ['WDM_LOG'] = "false"
+
+print('-' * 120)
 url = input('Paste scheme website you want to test (you can paste link here by using right click):\n')
-scheme_name = input("\nPlease enter evidence file name (file name will look like this: HOP_<text that you're going to type now>_<name of the subpage>.txt):\n")
+scheme_name = input("\nPlease enter evidence file name (file name will look like this: HOP_<\033[1mtext that you're going to type below\033[0m>_<name of the subpage>.txt):\n")
 
 evidence_file = open(f"Scripts written for scenarios\Evidence\HOP_{scheme_name}_Investment_Options.txt","w") 
 evidence_file.close()
@@ -30,33 +28,38 @@ current_time = now.strftime("%H:%M:%S")
 evidence_file.write(f"{today}\n{current_time}\n")
 evidence_file.close()
 
-chromedriver_autoinstaller.install()  
-driver = webdriver.Chrome()
+options = Options()
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options) 
 driver.get(f"{url}")
 driver.maximize_window()
-
 accept_cookies(driver)
+
 open_inv_options(driver)
 inv_options_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]')
-for x in range(len(inv_options_wording)):
-    scheme_wording = inv_options_wording[x].text
+scheme_wording = ""
+for inv_options_text in inv_options_wording:
+    scheme_wording += inv_options_text.text
 
 scheme_wording = scheme_wording + "\n" + "\n"
 driver.quit()
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options) 
 driver.get("https://qaportal.hartlinkonline.co.uk/corvidae")
 driver.maximize_window()
 accept_cookies(driver)
+
 open_inv_options_demo(driver)
 inv_options_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]')
-for x in range(len(inv_options_wording)):
-    demo_wording = inv_options_wording[x].text
+demo_wording = ""
+for inv_options_text in inv_options_wording:
+    demo_wording += inv_options_text.text
 
 demo_wording = demo_wording + "\n" + "\n"
 driver.quit()
 
 if demo_wording == scheme_wording:
+    print('-' * 120)
     print(f"\n\033[1mInvestment Options page wording is the same for both demo and scheme page!\033[0m\n")
     evidence_file = open(f"Scripts written for scenarios\Evidence\HOP_{scheme_name}_Investment_Options.txt","a", encoding="utf-8")
     evidence_file.write(f"R E S U L T S  O F  T H E  T E S T: Investment Options page wording is the same for both demo and scheme page!\n\n")
@@ -65,6 +68,7 @@ if demo_wording == scheme_wording:
     evidence_file.close()
 
 else:
+    print('-' * 120)
     print (f"\n\033[1mInvestment Options page wording is NOT the same for demo and scheme page!\033[0m\n")
     evidence_file = open(f"Scripts written for scenarios\Evidence\HOP_{scheme_name}_Investment_Options.txt","a", encoding="utf-8")
     evidence_file.write(f"R E S U L T S  O F  T H E  T E S T: Investment Options page wording is NOT the same for demo and scheme page!\n\n")
@@ -82,4 +86,5 @@ else:
     evidence_file_diff.write('\n'.join(diff))
     evidence_file_diff.close()
 
-print("\033[1mEvidence file was successfully generated!\033[0m\n")
+print('-' * 120)
+print("\n\033[1mEvidence file was successfully generated!\033[0m\n")

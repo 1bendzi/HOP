@@ -1,319 +1,219 @@
 from selenium import webdriver 
-from selenium.webdriver.common.keys import Keys 
 from selenium.webdriver.common.by import By 
-from selenium.webdriver.support.ui import WebDriverWait 
-from selenium.webdriver.support import expected_conditions as EC
-import chromedriver_autoinstaller
-from datetime import date
-import time
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from datetime import date, datetime
 from HOP_functions import *
-# import requests
-# import time
-# from urllib import request 
+import time
+import logging
+import os
 
-today = str(date.today())
-evidence_file = open("Scheme tests\Generated Evidence\HOP_Anglian_Water_Evidence.txt","w") #clearing file before saving anything in it 
+logging.getLogger('WDM').setLevel(logging.NOTSET)
+os.environ['WDM_LOG'] = "false"
+
+print("\n\033[1mScript has been started!\033[0m\n")
+evidence_file = open("Scheme tests\Generated Evidence\HOP_Anglian_Water_Evidence.txt","w")  
 evidence_file.close()
 evidence_file = open("Scheme tests\Generated Evidence\HOP_Anglian_Water_Evidence.txt","a", encoding="utf-8")
-evidence_file.write(f"{today}\n")
 
+now = datetime.now()
+today = str(date.today())
+current_time = now.strftime("%H:%M:%S")
+evidence_file.write(f"{today}\n{current_time}\n")
+evidence_file.write('-' * 120)
+evidence_file.write('\n')
 
-chromedriver_autoinstaller.install()  
-driver = webdriver.Chrome()
+options = Options()
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options) 
 driver.get("https://qaportal.hartlinkonline.co.uk/myawgpension")
+driver.maximize_window()
+accept_cookies(driver)
+
+# M E N U  H E A D E R S - T E S T 
+
+open_menu(driver)
+evidence_file.write(f"\n*MENU HEADERS: *\n")
+save_text_to_evidence_by_xpath(driver, evidence_file, '//*[@id="globalTopMenu"]/div')
+evidence_file.close()
+
+scheme_menu_headers = driver.find_elements(By.XPATH, '//*[@id="globalTopMenu"]/div')
+for scheme_menu_header in scheme_menu_headers:
+    scheme_menu_headers_list = scheme_menu_header.text
+
+driver.quit()
+
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+driver.get("https://qaportal.hartlinkonline.co.uk/corvidae")
 driver.maximize_window()
 accept_cookies(driver)
 open_menu(driver)
 
-# M E N U  H E A D E R S
-
-evidence_file.write(f"*MENU HEADERS: *\n")
-menu_items = driver.find_elements(By.XPATH, '//*[@id="globalTopMenu"]/div')
-for x in range(len(menu_items)):
-    evidence_file.write(menu_items[x].text)
-    evidence_file.write("\n")
-evidence_file.write("\n")
-evidence_file.close()
-
-with open("Scheme tests\Generated Evidence\HOP_Anglian_Water_Evidence.txt") as file:
-    contents = file.read()
-    search_word = str('''*MENU HEADERS: *
-Reminders
-Login Name Reminder
-Reset Password
-Reset PIN
-Apply To Join The Scheme
-Application Options
-Scheme Communications
-Pensions Compass
-Scheme Information
-Investments
-Investment Options
-General Information
-Contact Us
-Useful Addresses
-Useful Terms
-
-''')
-    if search_word in contents:
-        evidence_file = open("Scheme tests\Generated Evidence\HOP_Anglian_Water_Evidence.txt","a", encoding="utf-8")
-
-                # H E A D E R  R I G H T  S I D E 
-
-        evidence_file.write(f"*HEADER RIGHT SIDE ELEMENTS: *\n")
-        header_right_items = driver.find_elements(By.ID, "staticBannerMenu")
-        for x in range(len(header_right_items)):
-            evidence_file.write(header_right_items[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        return_to_home(driver)
-
-        # A A A  C H E C K 
-
-        smallest_a = driver.find_element(By.XPATH, '//*[@id="textSmall"]')
-        middle_a = driver.find_element(By.XPATH, '//*[@id="textMedium"]')
-        biggest_a = driver.find_element(By.XPATH, '//*[@id="textLarge"]')
-        contac_us_button = driver.find_element(By.XPATH, '//*[@id="staticBannerMenu"]/div[2]/div[1]/a')
-
-        biggest_a.click()
-        time.sleep(1)
-        evidence_file.write("Contact Us font-size when biggest A is selected (correct value is: 26px): ")
-        evidence_file.write(contac_us_button.value_of_css_property("font-size"))
-        evidence_file.write("\n")
-
-        middle_a.click()
-        time.sleep(1)
-        evidence_file.write("Contact Us font-size when middle A is selected (correct value is: 23px): ")
-        evidence_file.write(contac_us_button.value_of_css_property("font-size"))
-        evidence_file.write("\n")
-
-        smallest_a.click()
-        time.sleep(1)
-        evidence_file.write("Contact Us font-size when smallest A is selected (correct value is: 20px): ")
-        evidence_file.write(contac_us_button.value_of_css_property("font-size"))
-        evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # P A G E  B O D Y  E L E M E N T S
-
-        evidence_file.write(f"*Page Body ELEMENTS: *\n")
-        homepage_general_elements = driver.find_elements(By.ID, "tilePageTiles")
-        for x in range(len(homepage_general_elements)):
-            evidence_file.write(homepage_general_elements[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # F O O T E R
-
-        evidence_file.write(f"*Footer ELEMENTS: *\n")
-        footer_elements = driver.find_elements(By.CLASS_NAME, "hop-footer")
-        for x in range(len(footer_elements)):
-            evidence_file.write(footer_elements[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # C O N T A C T  U S
-
-        open_contact_us_scheme(driver)
-
-        evidence_file.write(f"*Contact Us WORDING: *\n")
-        contact_us_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]')
-        for x in range(len(contact_us_wording)):
-            evidence_file.write(contact_us_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # L O G I N (ACCESSED FROM HEADER BUTTON)
-
-        open_login_header(driver)
-
-        evidence_file.write(f"*LOGIN WORDING (from header button): *\n")
-        login_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]')
-        for x in range(len(login_wording)):
-            evidence_file.write(login_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # R E G I S T E R (ACCESSED FROM HEADER BUTTON)
-
-        open_register_header(driver)
-
-        evidence_file.write(f"*REGISTER WORDING (from header button): *\n")
-        register_wording = driver.find_elements(By.XPATH, '/html/body/div[1]/div[2]/div[2]')
-        for x in range(len(register_wording)):
-            evidence_file.write(register_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # L O G I N  N A M E  R E M I N D E R 
-
-        open_login_name_reminder(driver)
-
-        evidence_file.write(f"*LOGIN NAME REMINDER WORDING: *\n")
-        login_name_reminder_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]/main/form')
-        for x in range(len(login_name_reminder_wording)):
-            evidence_file.write(login_name_reminder_wording[x].text)
-            evidence_file.write("\n")
-
-        evidence_file.write("\n")
-
-        # R E S E T  P A S S W O R D
-
-        open_reset_password(driver)
-
-        evidence_file.write(f"*RESET PASSWORD WORDING: *\n")
-        reset_password_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]/main/form')
-        for x in range(len(reset_password_wording)):
-            evidence_file.write(reset_password_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # R E S E T  P I N
-
-        open_reset_pin(driver)
-
-        evidence_file.write(f"*RESET PIN WORDING: *\n")
-        reset_pin_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]/main/form')
-        for x in range(len(reset_pin_wording)):
-            evidence_file.write(reset_pin_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # A P P L I C A T I O N  O P T I O N S
-
-        open_application_options(driver)
-
-        evidence_file.write(f"*Application Options page WORDING: *\n")
-        app_options_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]')
-        for x in range(len(app_options_wording)):
-            evidence_file.write(app_options_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # P E N S I O N  C O M M U N I C A T I O N (LINK CHECK, EXTERNAL PAGE)
-
-        # S C H E M E  I N F O R M A T I O N 
-
-        open_scheme_info(driver)
-        evidence_file.write(f"*Scheme Information WORDING: *\n")
-        scheme_information_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]')
-        for x in range(len(scheme_information_wording)):
-            evidence_file.write(scheme_information_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # I N V E S T M E N T  O P T I O N S
-
-        open_inv_options(driver)
-        evidence_file.write(f"*Investment Options WORDING: *\n")
-        inv_options_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]')
-        for x in range(len(inv_options_wording)):
-            evidence_file.write(inv_options_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # C O N T A C T  U S (ACCESSED FROM MENU)
-
-        open_contact_us_menu(driver)
-
-
-        # U S E F U L  A D D R E S S E S
-
-        open_useful_addresses(driver)
-        evidence_file.write(f"*Useful Addresses WORDING: *\n")
-        inv_options_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]')
-        for x in range(len(inv_options_wording)):
-            evidence_file.write(inv_options_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # U S E F U L  T E R M S 
-
-        open_useful_terms(driver)
-        evidence_file.write(f"*Useful Terms WORDING: *\n")
-        useful_terms_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]/div/main')
-        for x in range(len(useful_terms_wording)):
-            evidence_file.write(useful_terms_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # L O G I N (ACCESSED FROM PAGE BODY BUTTON)
-
-        open_login_main(driver)
-
-        evidence_file.write(f"*LOGIN WORDING (from main page button): *\n")
-        login_wording = driver.find_elements(By.XPATH, '/html/body/div/div[2]/div[2]')
-        for x in range(len(login_wording)):
-            evidence_file.write(login_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # R E G I S T E R (ACCESSED FROM PAGE BODY BUTTON)
-
-        open_register_main(driver)
-
-        evidence_file.write(f"*REGISTER WORDING (from main page button): *\n")
-        register_wording = driver.find_elements(By.XPATH, '/html/body/div[1]/div[2]/div[2]')
-        for x in range(len(register_wording)):
-            evidence_file.write(register_wording[x].text)
-            evidence_file.write("\n")
-        evidence_file.write("\n")
-
-        # C A P I T A  P L C  (LINK CHECK, EXTERNAL PAGE)
-
-        # C A P I T A (LINK CHECK, EXTERNAL PAGE)
-
-        # A C C E S S I B I L I T Y 
-
-        open_accessibility(driver)
-
-        evidence_file.write(f"*Accessibility WORDING: *\n")
-        accessibility_wording = driver.find_elements(By.XPATH, '//*[@id="accessibility"]')
-        for x in range(len(accessibility_wording)):
-            evidence_file.write(accessibility_wording[x].text)
-            evidence_file.write("\n")
-
-        evidence_file.write("\n")
-
-        # P R I V A C Y  &  C O O K I E  P O L I C Y 
-
-        open_privacy(driver)
-
-        evidence_file.write(f"*Privacy & Cookie Policy WORDING: *\n")
-        privacy_wording = driver.find_elements(By.XPATH, '//*[@id="privacyPolicy"]')
-        for x in range(len(privacy_wording)):
-            evidence_file.write(privacy_wording[x].text)
-            evidence_file.write("\n")
-
-        evidence_file.write("\n")
-
-        # F A Q 
-
-        open_faq(driver)
-
-        evidence_file.write(f"*FAQ WORDING: *\n")
-        faq_wording = driver.find_elements(By.XPATH, '//*[@id="faq"]/section[2]/div')
-        for x in range(len(faq_wording)):
-            evidence_file.write(faq_wording[x].text)
-            evidence_file.write("\n")
-            # print(faq_wording[x].text)
-        evidence_file.write("\n")
-
-        # T E R M S  &  C O N D I T I O N S
-
-        open_terms(driver)
-
-        evidence_file.write(f"*Terms & Conditions WORDING: *\n")
-        terms_wording = driver.find_elements(By.XPATH, '//*[@id="tncPage"]')
-        for x in range(len(terms_wording)):
-            evidence_file.write(terms_wording[x].text)
-            evidence_file.write("\n")
-
-        evidence_file.write("\n")
-        evidence_file.close() 
-        print("\033[1mEvidence file was successfully generated!\033[0m\n")
-    else:
-        print ('\n\033[1mMenu elements are different to demo website therefore, the page will not be scraped!\033[1m\n')
+demo_menu_headers = driver.find_elements(By.XPATH, '//*[@id="globalTopMenu"]/div')
+for demo_menu_header in demo_menu_headers:
+    demo_menu_headers_list = demo_menu_header.text
+
+driver.quit()
+
+if scheme_menu_headers_list in demo_menu_headers_list:
+    evidence_file = open("Scheme tests\Generated Evidence\HOP_Anglian_Water_Evidence.txt","a", encoding="utf-8")
+
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    driver.get("https://qaportal.hartlinkonline.co.uk/myawgpension")
+    driver.maximize_window()
+    accept_cookies(driver)
+
+    # H E A D E R  R I G H T  S I D E 
+    evidence_file.write(f"*HEADER RIGHT SIDE ELEMENTS: *\n")
+    save_text_to_evidence_by_id(driver, evidence_file, 'staticBannerMenu')
+
+    # A A A  C H E C K 
+    return_to_home(driver)
+    smallest_a = driver.find_element(By.XPATH, '//*[@id="textSmall"]')
+    middle_a = driver.find_element(By.XPATH, '//*[@id="textMedium"]')
+    biggest_a = driver.find_element(By.XPATH, '//*[@id="textLarge"]')
+    contact_us_button = driver.find_element(By.XPATH, '//*[@id="staticBannerMenu"]/div[2]/div[1]/a')
+    biggest_a.click()
+    time.sleep(1)
+    evidence_file.write(f"Contact Us font-size when biggest A is selected (correct value is: 26px): {contact_us_button.value_of_css_property('font-size')} \n")
+    middle_a.click()
+    time.sleep(1)
+    evidence_file.write(f"Contact Us font-size when biggest A is selected (correct value is: 23px): {contact_us_button.value_of_css_property('font-size')} \n")
+    smallest_a.click()
+    time.sleep(1)
+    evidence_file.write(f"Contact Us font-size when biggest A is selected (correct value is: 20px): {contact_us_button.value_of_css_property('font-size')} \n\n")
+
+    # P A G E  B O D Y  E L E M E N T S
+    evidence_file.write(f"*Page Body ELEMENTS: *\n")
+    save_text_to_evidence_by_id(driver, evidence_file, 'tilePageTiles')
+
+    # F O O T E R
+    evidence_file.write(f"*Footer ELEMENTS: *\n")
+    save_text_to_evidence_by_class(driver, evidence_file, 'hop-footer')
+
+    # C O N T A C T  U S
+    open_contact_us_scheme(driver)
+    evidence_file.write(f"*Contact Us WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+
+    # L O G I N (ACCESSED FROM HEADER BUTTON)
+    open_login_header(driver)
+    evidence_file.write(f"*LOGIN WORDING (from header button): *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+
+    # # R E G I S T E R (ACCESSED FROM HEADER BUTTON)
+    open_register_header(driver)
+    evidence_file.write(f"*REGISTER WORDING (from header button): *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div[1]/div[2]/div[2]')
+
+    # # L O G I N  N A M E  R E M I N D E R 
+    open_login_name_reminder(driver)
+    evidence_file.write(f"*LOGIN NAME REMINDER WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]/main/form')
+
+    # # R E S E T  P A S S W O R D
+    open_reset_password(driver)
+    evidence_file.write(f"*RESET PASSWORD WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]/main/form')
+
+    # # R E S E T  P I N
+    open_reset_pin(driver)
+    evidence_file.write(f"*RESET PIN WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]/main/form')
+
+    # A P P L I C A T I O N  O P T I O N S
+    open_application_options(driver)
+    evidence_file.write(f"*Application Options page WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+
+    # P E N S I O N  C O M M U N I C A T I O N (LINK CHECK, EXTERNAL PAGE)
+
+    # S C H E M E  I N F O R M A T I O N 
+    open_scheme_info(driver)
+    evidence_file.write(f"*Scheme Information WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+
+    # I N V E S T M E N T  O P T I O N S
+    open_inv_options(driver)
+    evidence_file.write(f"*Investment Options WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+
+    # C O N T A C T  U S (ACCESSED FROM MENU)
+    open_contact_us_scheme(driver)
+
+    # U S E F U L  A D D R E S S E S
+    open_useful_addresses(driver)
+    evidence_file.write(f"*Useful Addresses WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+
+    # U S E F U L  T E R M S 
+    open_useful_terms(driver)
+    evidence_file.write(f"*Useful Terms WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+
+    # L O G I N (ACCESSED FROM PAGE BODY BUTTON)
+    open_login_main(driver)
+    evidence_file.write(f"*LOGIN WORDING (from main page button): *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div/div[2]/div[2]')
+
+    # R E G I S T E R (ACCESSED FROM PAGE BODY BUTTON)
+    open_register_main(driver)
+    evidence_file.write(f"*REGISTER WORDING (from main page button): *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '/html/body/div[1]/div[2]/div[2]')
+
+    # C A P I T A  P L C  (LINK CHECK, EXTERNAL PAGE)
+
+    # C A P I T A (LINK CHECK, EXTERNAL PAGE)
+
+    # A C C E S S I B I L I T Y 
+    open_accessibility(driver)
+    evidence_file.write(f"*Accessibility WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '//*[@id="accessibility"]')
+
+    # P R I V A C Y  &  C O O K I E  P O L I C Y 
+    open_privacy(driver)
+    evidence_file.write(f"*Privacy & Cookie Policy WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '//*[@id="privacyPolicy"]')
+
+    evidence_file.write(f"*Privacy & Cookie Policy WORDING inside accordion headers: *\n")
+    open_privacy(driver)
+    headers_wording = driver.find_elements(By.CLASS_NAME, 'ui-accordion-content')
+    for header_wording in headers_wording:
+        evidence_file.write(header_wording.get_attribute('innerText'))
+
+    evidence_file.write('\n')
+
+    # F A Q 
+    open_faq(driver)
+    evidence_file.write(f"*FAQ WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '//*[@id="faq"]/section[2]/div')
+
+    evidence_file.write(f"*FAQ WORDING inside accordion headers: *\n")
+    open_faq(driver)
+    header_container = driver.find_element(By.CLASS_NAME, 'search-results-area')
+    for header in header_container.find_elements(By.CLASS_NAME, 'accordion.search-result'):
+        content = header.find_element(By.CLASS_NAME, 'ui-accordion-content').get_attribute('innerText')
+        evidence_file.write(content)
+    
+    evidence_file.write('\n')
+
+    # T E R M S  &  C O N D I T I O N S
+    open_terms(driver)
+    evidence_file.write(f"*Terms & Conditions WORDING: *\n")
+    save_text_to_evidence_by_xpath(driver, evidence_file, '//*[@id="tncPage"]')
+
+
+    evidence_file.close() 
+    print('-' * 120)
+    print("\n\033[1mEvidence file was successfully generated!\033[0m\n")
+else:
+    evidence_file = open("Scheme tests\Generated Evidence\HOP_Anglian_Water_Evidence.txt","a", encoding="utf-8")
+    evidence_file.write('-' * 120)
+    evidence_file.write('\n\033[1mMenu elements are different to demo website therefore, the page will not be scraped!\033[1m\n')
+    evidence_file.close()
+
+    print('-' * 120)
+    print ('\n\033[1mMenu elements are different to demo website therefore, the page will not be scraped!\033[1m\n')
 
 driver.quit()

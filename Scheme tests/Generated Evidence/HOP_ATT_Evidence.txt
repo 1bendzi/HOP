@@ -1,4 +1,7 @@
-2022-06-07
+2022-06-10
+14:33:06
+------------------------------------------------------------------------------------------------------------------------
+
 *MENU HEADERS: *
 Reminders
 Login Name Reminder
@@ -23,9 +26,9 @@ Home
 Login
 Register
 
-Contact Us font-size when biggest A is selected (correct value is: 26px): 26px
-Contact Us font-size when middle A is selected (correct value is: 23px): 23px
-Contact Us font-size when smallest A is selected (correct value is: 20px): 20px
+Contact Us font-size when biggest A is selected (correct value is: 26px): 26px 
+Contact Us font-size when biggest A is selected (correct value is: 23px): 23px 
+Contact Us font-size when biggest A is selected (correct value is: 20px): 20px 
 
 *Page Body ELEMENTS: *
 Welcome
@@ -176,6 +179,7 @@ Other
 No addresses to display
 
 *Useful Terms WORDING: *
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 A
 AA
 The Annual Allowance is the maximum amount that can be paid or built up in a pension arrangement in any tax year before an additional tax charge is payable.
@@ -352,6 +356,362 @@ At any time you can manage cookie settings in order to give or withdraw your con
 2. Third party cookies
 3. Disabling cookies and other information gathering technologies
 
+*Privacy & Cookie Policy WORDING inside accordion headers: *
+
+    
+        Capita Employee Benefits Limited and Capita Employee Benefits (Consulting) Limited (trading as Capita Employee Solutions) ("we").
+        We are registered in England and Wales under company numbers 02260524 and 01860772 respectively
+        and have our registered office situated at 65 Gresham Street, London, EC2V 7NQ.
+    
+    
+        We are authorised and regulated by the Financial Conduct Authority under registration numbers 142484 and 115051 respectively.
+    
+    
+        We provide pension administration services to your employer and / or pension scheme trustee.
+        As part of these services they provide us with information about you to enable us to administer your pension scheme
+        and to allow you to apply for any additional optional benefits your employer or pension scheme trustees ask us to make available to you.
+    
+    
+    
+        Your employer and / or the pension scheme trustee are the 'Controller' of this information and Capita is a 'Processor'
+    
+    
+    
+        This Privacy Notice is therefore supplemental to the Privacy Notice provided by your employer
+        and / or pension scheme trustee and only relates to our administration services.
+    
+
+    
+        When a controller decides to use our services they provide us with your personal details
+        which are necessary to provide you with the benefits and services they are providing or offering you.
+        The exact details may vary depending on the pension options being provided but may include but not be limited to:
+    
+    
+        Full Name
+        Address
+        Company email address
+        Personal email address
+        National Insurance Number
+        Employee/Payroll Number
+        Annual salary
+        Employment start date
+        Date you enrolled into the pension scheme
+        Dependents details (e.g. if there is a spouses pension / death in service/life cover)
+    
+    
+        When you enrol and visit our Site you should check these details are accurate and keep them updated.
+    
+    
+    
+        We may ask you for further details in the following circumstances:
+    
+    
+    
+        The information provided by your employer/pension scheme trustee is incomplete, or
+        An external provider of a particular benefit or service requires more information to provide that benefit or service
+    
+    
+    
+        Depending on the service you may have the option to receive information by SMS e.g. pension investment alerts.
+        Where you choose this service you will have the option of providing your mobile phone number.
+    
+    
+    
+        We may also ask you for details of your spouse, partner or other immediate family member if they are to be included
+        as the nominated beneficiary of your pension. Where you submit such details,
+        you do so on behalf of the relevant family member and you acknowledge and accept that it is your responsibility for letting them know
+        (i) that you have done so; (ii) what details you have submitted; and (iii) the purpose of submitting the details.
+    
+    
+    
+        It is your responsibility to keep your personal details and those of any relevant family member updated.
+        If there is any change in your personal details, please let us know the correct details by updating them on our Site (where possible)
+        or inform your employer and/or scheme administrator of the changes.
+    
+
+    
+        We gather this information to allow us to process your enrolment,
+        provide you with updated details of your pension scheme,
+        assist you in applying for further benefits or products and processing those applications (where applicable)
+        and generally ensure the smooth running of your pension account.
+    
+
+    
+        The information is also used by us to communicate with you on any matter relating to your pension scheme and the provision of the services in general.
+    
+
+    
+        Your employer and / or pension trustee may have provided your e-mail address details to Capita
+        for the purpose of providing our services. E-mail messages sent over the internet cannot be guaranteed
+        to be completely secure as they may be subject to possible interception or loss.
+        If you do not want Capita to contact you on your e-mail address, please contact your employer and/or pension scheme administrator.
+    
+
+    
+        We may also wish to provide you with information about special features of our Site or other services.
+        This may be by email or by SMS text messaging if you have registered for this service.
+        If you do not want to receive this information, please contact your employer and / or pension scheme administrator.
+    
+
+    
+        We never use or share any personally identifiable information provided to us online
+        in ways unrelated to the ones described on our Site, this Privacy Notice or our Cookie Policy.
+    
+
+    What is your legal basis for processing my information?
+    
+        The controller will have a legal basis for providing us with your information to process
+        and they should provide you with details of this in their privacy notice to you.
+    
+
+    
+        As a processor your information is processed by us on the basis of instructions from
+        and a contract with the controller e.g. your employer / pension scheme trustee to provide pension administration services.
+    
+
+    
+        Where we provide pension administration services and you apply for any additional products or services
+        offered through our Site, we will pass your personal details as necessary to the provider of those products
+        and services to the extent necessary for you to receive those products or services.
+        Thereafter, the provider may correspond with you directly in order to provide those services.
+    
+    
+    
+        Once a provider has received your personal information they will usually have a direct relationship with you
+        and use your personal data in accordance with their terms and conditions and privacy policy.
+    
+    
+    
+        Examples of the types of providers used are:
+    
+    
+        Insurance Companies: for the provision of Pensions Schemes or Life assurance
+    
+    
+    
+        To provide our services to your employer and / or pension scheme trustee we sometimes use
+        third parties such as IT systems and software providers or print and document management companies.
+    
+    
+    
+        In addition, your details may be disclosed to your employer / pension scheme in order for Capita to provide the services to you.
+    
+    
+    
+        In the event that Capita is sold or integrated with another business, your details may be disclosed
+        to our advisers and any prospective purchasers' advisers and will be passed on to the new owners of the business.
+    
+
+    
+        Your personal data will not be transferred by us outside of the European Economic Area (EEA)
+        unless specifically agreed with the controller. Where that is the case you will be separately notified.
+    
+
+    
+        Our standard policy is to hold your data for a maximum of 7 years after the end our agreement
+        to provide services to your employer / pension scheme trustee after which it will be securely destroyed.
+    
+
+    
+        If you do not wish us to process your personal data in order to use our Site, please use the contact details
+        on the Site homepage. However, in certain circumstances the controller e.g. your employer maybe under a legal obligation
+        to process your personal data e.g. for automatic enrolment into a pension scheme
+        and to manage opt-outs in which case we may have to continue to process your personal data.
+    
+
+    
+        Where agreed with your employer and / or pension scheme trustee we may anonymise
+        your personal information and use it for data analytical purposes.
+    
+    
+        We may also use aggregate information and statistics for the purposes of monitoring website usage
+        and to help us develop our Site and our services, and may provide such aggregate information to third parties.
+        These statistics will not include information that can be used to identify any individual.
+    
+    
+    
+        From time to time we may provide your information that we collect and store during normal use of our Site
+        to our customer service agencies for research and analysis purposes so that we can monitor and improve the services we provide.
+        Such use does not result in any personally identifiable data, other than contact details, being collected,
+        stored or transferred to such agencies. We, or our agents and sub-contractors, may contact you by post,
+        e-mail or telephone to ask you for your feedback and comments on our services.
+    
+    
+        One way in which we gather this information is by using cookies. Please see our Cookie Policy for more information.
+    
+
+    
+        Under Data Protection regulations you have a number of rights.
+        These can be exercised by contacting your employer / pension scheme trustee as the Controller of your information.
+    
+    
+    
+        The right to be informed
+        This includes an obligation to explain to you how your information is used.
+        This Privacy Notice provides you with this explanation in relation to the information processed
+        by us when providing pension scheme administration services to your employer or pension scheme trustee.
+    
+    
+    
+        The right of access
+        You have the right to obtain confirmation that your information is being processed and to obtain access to your information (e.g. by receiving a copy of it).
+    
+    
+    
+        The right to rectification
+        You have the right to have your information corrected if it is inaccurate or incomplete.
+    
+    
+    
+        The right to erasure (also known as the “right to be forgotten”)
+        You have the right to request the deletion or removal of your information in certain circumstances.
+        Please note that there may be circumstances where you ask for your information to be deleted
+        but both us and your employer / pension scheme trustee are legally entitled to retain it.
+    
+    
+    
+        The right to restrict processing
+        You have the right to request the processing of your information is restricted in certain circumstances.
+        Again, there may be circumstances where you ask your employer / pension scheme trustee to restrict
+        the processing of your information, but they are legally entitled to refuse that request.
+    
+    
+    
+        The right to data portability
+        You have the right to receive the information you have provided in a usable electronic format
+        and/or request it is transmitted to a third party where this is technically feasible.
+    
+    
+        The right to complain to the Supervisory Authority
+        You have the right to make a complaint with the Information Commissioner
+        (www.ico.org.uk) 
+        if you think that any of your rights have been infringed.
+    
+
+    
+        1.1. Our Site uses cookies to distinguish you from other users of our Site. This helps us to provide 
+        you with a good experience when you browse our Site. It also allows us to improve our Site.
+        1.2. Cookies are small text files that are placed on your computer by websites that you visit. 
+            Cookies contain information that is transferred to your computer’s hard drive. They are widely 
+            used in order to make websites work, or work more efficiently (such as recalling your preferences), 
+            as well as to provide information to the owners of the website, which helps to improve the user 
+            experience of the website.
+        1.3. We use the following types of cookies:
+            
+                Strictly necessary cookies. These are cookies that are required for the 
+                    operation of our website. They include, for example, cookies that enable you to log into 
+                    secure areas of our website, use a shopping cart or make use of e-billing services.
+                Analytical/performance cookies. They allow us to recognise and count the 
+                    number of visitors and to see how visitors move around our website when they are using it. 
+                    This helps us to improve the way our website works, for example, by ensuring that users 
+                    are finding what they are looking for easily.
+            
+        
+        1.4. The table below explains the specific cookies we use for the operation of Hartlink and why:
+    
+    
+        
+            
+                Cookie Type
+                Name
+                Purpose 
+                Lifespan
+            
+            
+                Strictly necessary cookies
+                Cstatus
+                This is a session cookie which informs the application whether the browser is set to use cookies.
+                When the browsing session ends
+            
+            
+                Strictly necessary cookies    
+                ASPSESSIONDACDCTSSA
+                This is a session cookie which the server uses to allow any .net items to run.
+                When the browsing session ends
+               
+                
+                Strictly necessary cookies
+                Sid#####
+                This is a session cookie which holds the members session information while they go through the Site.
+                When the browsing session ends
+            
+            
+                Strictly necessary cookies
+                displayCookieConsent
+                This cookie is used to notify you that the website is storing cookies in your browser.
+                90 days
+            
+        
+    
+
+    
+        2.1. We use a number of suppliers which set cookies through our Site in order to deliver 
+            the services they provide. We have no control over these cookies. They are most likely 
+            to be analytical/performance cookies or targeting cookies.
+        2.2. The table below explains the third party cookies we use for the operation of 
+        Hartlink and why:
+    
+    
+        
+            
+                Cookie Type
+                Name
+                Purpose
+                Lifespan
+            
+            
+                Google Analytics
+                 _utma 
+                These cookies are used to collect information about how visitors use our Site. 
+                   We use the information to compile reports and to help us improve the Site. The 
+                   cookies collect information in an anonymous form, including the number of 
+                   visitors to the Site, how and where the visitor has accessed the Site from, 
+                   and the pages they have visited.
+                
+                2 years
+            
+            
+               _utmb
+               1 day
+            
+            
+                _utmc
+               When the browsing session ends
+            
+            
+               
+               _utmz
+               
+               6 months
+            
+        
+    
+    
+        2.3. Please note other websites to which our Site may be linked, may also make use of their 
+            own cookies, over which we have no control.
+    
+
+    
+        
+            3.1. Most web browsers allow some control of most cookies through your browser settings, 
+            where you can block cookies by activating the settings on your browser. This allows you 
+            to refuse the setting of all or some cookies.
+        
+        
+            3.2. However, using your browser settings to block all cookies (including essential cookies) 
+            may mean you are unable to access some or all parts of our Site.
+        
+        
+            3.3. All of the cookies used by Hartlink are required for Hartlink to function correctly and 
+            therefore to use Hartlink you must give your consent for cookies to be stored on your machine. 
+            None of the cookies Hartlink use are harmful or will track anything you do away from Hartlink.
+        
+        
+            3.4. To opt out of being tracked by Google Analytics across all websites visit 
+            Google Analytics Opt-Out.
+            
+    
+
 *FAQ WORDING: *
 How do I register?
 I have not received a PIN
@@ -361,6 +721,51 @@ The website will not accept my email address
 Why am I asked to log in again when I was already logged in?
 Why does the website not recognise my response to the security image?
 
+*FAQ WORDING inside accordion headers: *
+            
+         
+             Click on the Register button in the top right of the page and follow the instructions. You will need your
+             National Insurance number and this must match the one on your pension record for successful registration.
+                       
+                 
+         
+             If you have just registered, a PIN will be issued within 24 hours of registration, either by email or SMS (text message)
+             depending on the option you selected. If you elected to receive your PIN by email, make sure to check your spam or junk folder.
+                       
+     
+            
+                If you have forgotten your Login Name, Password, or PIN, please go to the Reminders section on the left of the screen and click on the appropriate reset/reminder. 
+            
+            
+                Please note that if you reset your password, the password generated for you is case sensitive.
+            
+    
+        
+            Your account locks after three failed attempts to log in. You can use the Unlock Your Account option, or alternatively
+            call us on 0114 273 7331 (+44 114 273 7331 from overseas) and a member of the administration team will be able to assist.
+                   
+    
+        
+            Please call us on 0114 273 7331 (+44 114 273 7331 from overseas) and a member of the administration
+            team will be able to assist.
+                   
+    
+        
+            There are several possible reasons that you were asked to log in again; the most likely is that your web
+            browser was inactive for a certain amount of time. This is a safety precaution we have put in place to help
+            prevent unauthorised access to your account.
+        
+        
+            We recommend that you always click "Log Out" before leaving the website and closing your internet browser.
+        
+    
+        
+            Under certain circumstances the security image shown to you can be temporarily stored on your computer and
+            result in a different image displaying in your browser than it should. By default, with the majority of
+            internet browsers, this should not happen.  To ensure this isn't problematic, you can perform a "hard refresh"
+            of the image using Ctrl+F5 (Options+Cmd+E on Mac using Safari).
+        
+    
 *Terms & Conditions WORDING: *
 Terms and Conditions
 Please read these terms and conditions carefully before using this site. By accessing and using this site, you agree to be bound by the terms of use set out below.

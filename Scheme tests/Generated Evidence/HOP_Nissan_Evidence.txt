@@ -1,5 +1,5 @@
 2022-06-10
-14:23:30
+14:35:05
 ------------------------------------------------------------------------------------------------------------------------
 
 *MENU HEADERS: *
@@ -14,10 +14,6 @@ Pensions Compass
 Scheme Information
 Investments
 Investment Options
-General Information
-Contact Us
-Useful Addresses
-Useful Terms
 
 *HEADER RIGHT SIDE ELEMENTS: *
 A A A
@@ -32,7 +28,7 @@ Contact Us font-size when biggest A is selected (correct value is: 20px): 20px
 
 *Page Body ELEMENTS: *
 Welcome
-to the Digital Transformation DC.
+to the Nissan Pension Plan.
 Already have an account?
 Login
 New to the site?
@@ -47,7 +43,7 @@ Capita Pension Solutions is a trading name of Capita Pension Solutions Limited a
 Contact Us
 If you would like to contact us for any further information, click the Contact Us button below:
 Alternatively you can write to us at:
-Digital Transformation Auto Enrolment
+Nissan Pension Plan
 Capita Employee Solutions
 PO Box 555
 Stead House
@@ -68,7 +64,6 @@ Password & PIN
 Confirmation
 Login Name
 Your Login Name
-In order to ensure your queries are directed to the correct team, please login to your retirement account where a range of options will be available to you.
 
 *REGISTER WORDING (from header button): *
 1
@@ -160,92 +155,6 @@ No documents to display
 Connection Error
 An error occurred while retrieving the requested data.
 
-*Useful Addresses WORDING: *
-Useful Addresses
-Government websites on pensions
-The Pensions Regulator
-View
-Money Helper Service
-View
-The Pensions Advisory Service
-View
-The Pension Service
-View
-The Pensions Ombudsman
-View
-Financial Services websites
-Financial Conduct Authority
-View
-Other
-No addresses to display
-
-*Useful Terms WORDING: *
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-A
-AA
-The Annual Allowance is the maximum amount that can be paid or built up in a pension arrangement in any tax year before an additional tax charge is payable.
-Actuary
-A pensions professional who estimates the long-term cost of providing pensions and advises on any contributions needed to fund a pension scheme, taking into account inflation, interest rates, how long people live and other factors.
-Additional State Pension
-This was paid on top of the Basic State Pension under the old State Pension, before 6 April 2016. It was based on an individual’s earnings between limits set by the Government each year.
-AVCs
-Additional Voluntary Contributions are additional contributions that you may have chosen to pay into the Digital Transformation Auto Enrolment while you were an active member of the Scheme. Your AVC savings pot can be used to provide additional income when you retire.
-Back to top
-B
-Basic State Pension (BSP)
-The flat rate pension paid at State Pension age under the old arrangement to a single person who has paid enough National Insurance contributions during their working life.
-Back to top
-C
-Capital Value
-The total value of your pension benefits. In a defined contribution scheme, it is simply the value of your savings pot. In a defined benefit scheme, it is usually the annual pension you are due to receive at retirement multiplied by 20 plus any lump sum you receive.
-Corporate Trustee
-A company that acts as the Trustee for a pension scheme and has a legal duty to safeguard members’ benefits.
-Back to top
-D
-Defined Benefit (DB)
-A type of pension scheme where you've earned a pension payable for life, based on how long you were in the scheme, your final pensionable salary and the pension scheme's accrual rate.
-Defined Contribution (DC)
-A type of pension scheme where you pay contributions from your salary to an individual pension savings pot. There are a number of ways you can access savings in a DC Scheme.
-Deferred member
-Either an employee or former employee of the Company who has not yet taken a pension from the Digital Transformation Auto Enrolment .
-Back to top
-G
-Guaranteed Minimum Pension (GMP)
-Guaranteed Minimum Pension is the minimum pension a contracted-out DB pension scheme must provide for service before 6 April 1997, as one of the conditions of contracting out of the Additional State Pension (also known as the State Second Pension (S2P) or State Earnings Related Pension Scheme (SERPS)).
-Back to top
-H
-Her Majesty's Revenue & Customs (HMRC)
-Responsible for the registration of pension schemes and the taxation of contributions and benefits.
-Back to top
-L
-Lifetime Allowance
-The Lifetime Allowance is the maximum value of pension benefits (excluding any State Pension) which you can build up across all schemes you are a member of before you have to pay an additional tax charge.
-Back to top
-P
-Pensionable Salary
-The elements of your basic salary which are used to calculate your pension contributions, and which determine the value of your benefits in a DB pension scheme.
-Pensionable Service
-The service used to calculate your pension in a DB pension scheme.
-Preserved Pension
-The pension held by a Deferred Member, that is no longer being contributed to and is not yet in payment.
-Back to top
-R
-Retired Member
-A member of the Scheme who has started to receive their pension.
-Back to top
-S
-Scheme Rules
-A legally binding document detailing the pension benefits which must be provided to members of a pension scheme.
-State Earnings Related Pension Scheme (SERPS)
-The Additional State Pension scheme that ran from 6 April 1978 to 5 April 2002. It was replaced by the State Second Pension (S2P) on 6 April 2002.
-Back to top
-T
-Cash Equivalent Transfer Value (CETV)
-This is the cash equivalent amount of your entitlement to pension benefits from the scheme. The scheme will pay this amount if you decide transfer your benefits to another registered pension scheme.
-Trustee
-The Trustee is the person(s) or company (known as a Corporate Trustee) responsible for running a pension scheme. They have a legal duty to safeguard the benefits you have earned.
-Back to top
-
 *LOGIN WORDING (from main page button): *
 1
 Login Name
@@ -255,7 +164,6 @@ Password & PIN
 Confirmation
 Login Name
 Your Login Name
-In order to ensure your queries are directed to the correct team, please login to your retirement account where a range of options will be available to you.
 
 *REGISTER WORDING (from main page button): *
 1

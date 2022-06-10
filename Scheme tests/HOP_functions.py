@@ -307,10 +307,24 @@ def open_terms(driver):
     except:
         driver.quit()
 
-def header_right_scrape(driver, evidence_file):
-    evidence_file.write(f"*HEADER RIGHT SIDE ELEMENTS: *\n")
-    header_right_items = driver.find_elements(By.ID, "staticBannerMenu")
-    for x in range(len(header_right_items)):
-        evidence_file.write(header_right_items[x].text)
-        evidence_file.write("\n")
+
+def save_text_to_evidence_by_xpath(driver, evidence_file, path):
+    elements_on_the_page = driver.find_elements(By.XPATH, path)
+    for element_on_the_page in elements_on_the_page:
+        evidence_file.write(element_on_the_page.text + "\n")
+
+    evidence_file.write("\n")
+
+def save_text_to_evidence_by_class(driver, evidence_file, class_name):
+    elements_on_the_page = driver.find_elements(By.CLASS_NAME, class_name)
+    for element_on_the_page in elements_on_the_page:
+        evidence_file.write(element_on_the_page.text + "\n")
+
+    evidence_file.write("\n")
+
+def save_text_to_evidence_by_id(driver, evidence_file, id_name):
+    elements_on_the_page = driver.find_elements(By.ID, id_name)
+    for element_on_the_page in elements_on_the_page:
+        evidence_file.write(element_on_the_page.text + "\n")
+
     evidence_file.write("\n")

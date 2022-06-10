@@ -36,3 +36,5 @@ diff = d.compare(scheme_wording_list, demo_wording_list)
 evidence_file_diff.write('\n'.join(diff))
 evidence_file_diff.close()
 
+print('-' * 120)
+print("\n\033[1mEvidence file was successfully generated!\033[0m\n")
